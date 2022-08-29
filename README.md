@@ -12,9 +12,11 @@ license
 - Has a one time purchase fee for the license
 - The license can be for that product forever or per version of that product,
   both are valid.
+- Mac Store apps can be added without a Price since they change based on regions
+
 
 ## Products
 
-- [Sublime Text](https://www.sublimehq.com/store/text) - 99$ - [License](https://www.sublimehq.com/eula)
-- [Paw](https://paw.cloud/purchase) - 50$ - [License](https://paw.cloud/terms)
-- [TaskPaper](https://www.taskpaper.com) - 24$ - [License](https://support.hogbaysoftware.com/t/how-does-my-license-work/2665?u=jessegrosjean)
+- [Sublime Text](https://www.sublimehq.com/store/text) - $99 - [License](https://www.sublimehq.com/eula)
+- [Paw](https://paw.cloud/purchase) - $50 - [License](https://paw.cloud/terms)
+- [TaskPaper](https://www.taskpaper.com) - $24 - [License](https://support.hogbaysoftware.com/t/how-does-my-license-work/2665?u=jessegrosjean)
