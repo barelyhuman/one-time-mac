@@ -17,4 +17,4 @@ license
 
 - [Sublime Text](https://www.sublimehq.com/store/text) - 99$ - [License](https://www.sublimehq.com/eula)
 - [Paw](https://paw.cloud/purchase) - 50$ - [License](https://paw.cloud/terms)
-
+- [TaskPaper](https://www.taskpaper.com) - 24$ - [License](https://support.hogbaysoftware.com/t/how-does-my-license-work/2665?u=jessegrosjean)
