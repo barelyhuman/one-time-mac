@@ -21,3 +21,4 @@ license
 - [Paw](https://paw.cloud/purchase) - $50 - [License](https://paw.cloud/terms)
 - [TaskPaper](https://www.taskpaper.com) - $24 - [License](https://support.hogbaysoftware.com/t/how-does-my-license-work/2665?u=jessegrosjean)
 - [Wipr](https://apps.apple.com/us/app/wipr/id1320666476)
+- [Typora](https://typora.io/) - 15$ - [License and Information](https://support.typora.io/activation)
