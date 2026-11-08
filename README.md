@@ -23,3 +23,4 @@ license
 - [Wipr](https://apps.apple.com/us/app/wipr/id1320666476)
 - [Typora](https://typora.io/) - 15$ - [License and Information](https://support.typora.io/activation)
 - [Fork](https://fork.dev/) - $59.99 - [License](https://fork.dev/license)
+- [Wow Keywords](https://wowkeywords.com) - $99 - [License](https://wowkeywords.com/#pricing)
