@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://barelyhuman.github.io/one-time-mac/sitemap.xml

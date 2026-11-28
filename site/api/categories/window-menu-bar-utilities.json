@@ -1,0 +1,56 @@
+{
+  "generated_at": "2026-11-28T10:19:17.936Z",
+  "name": "Window & Menu Bar Utilities",
+  "slug": "window-menu-bar-utilities",
+  "count": 4,
+  "products": [
+    {
+      "name": "AltTab",
+      "slug": "alttab",
+      "url": "https://alt-tab.app/pricing",
+      "price": "$24.99",
+      "currency": "USD",
+      "price_value": 24.99,
+      "license_url": "https://alt-tab.app/terms",
+      "category": "Window & Menu Bar Utilities",
+      "category_slug": "window-menu-bar-utilities",
+      "generated_at": "2026-11-28T10:19:17.936Z"
+    },
+    {
+      "name": "BetterTouchTool",
+      "slug": "bettertouchtool",
+      "url": "https://folivora.ai/",
+      "price": "$25",
+      "currency": "USD",
+      "price_value": 25,
+      "license_url": "https://folivora.ai/",
+      "category": "Window & Menu Bar Utilities",
+      "category_slug": "window-menu-bar-utilities",
+      "generated_at": "2026-11-28T10:19:17.936Z"
+    },
+    {
+      "name": "Lunar",
+      "slug": "lunar",
+      "url": "https://lunar.fyi/",
+      "price": "$23",
+      "currency": "USD",
+      "price_value": 23,
+      "license_url": "https://lunar.fyi/eula",
+      "category": "Window & Menu Bar Utilities",
+      "category_slug": "window-menu-bar-utilities",
+      "generated_at": "2026-11-28T10:19:17.936Z"
+    },
+    {
+      "name": "Moom",
+      "slug": "moom",
+      "url": "https://manytricks.com/moom/",
+      "price": "$15",
+      "currency": "USD",
+      "price_value": 15,
+      "license_url": "https://manytricks.com/moom/",
+      "category": "Window & Menu Bar Utilities",
+      "category_slug": "window-menu-bar-utilities",
+      "generated_at": "2026-11-28T10:19:17.936Z"
+    }
+  ]
+}
