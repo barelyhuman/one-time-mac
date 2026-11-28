@@ -51,3 +51,4 @@ license
 - [Things 3](https://apps.apple.com/us/app/things-3/id904280696) - [License](https://apps.apple.com/us/app/things-3/id904280696)
 - [Transmit](https://panic.com/transmit/) - $45 - [License](https://panic.com/transmit/)
 - [Wow Keywords](https://wowkeywords.com) - $99 - [License](https://wowkeywords.com/tos)
+- [Doppelgone](https://doppelgone.app) - $9.99 - [License](https://doppelgone.app/terms)
