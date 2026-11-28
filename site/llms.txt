@@ -1,0 +1,32 @@
+# One-Time Mac
+
+> A community sourced set of products for Mac that have a one time lifetime license
+
+Community-maintained catalog of macOS apps sold with a one-time lifetime license (not subscription). Source of truth: README.md in the GitHub repo; this site is static and rebuilt on every merge to main.
+
+## Inclusion criteria
+
+- One-time purchase fee for the license (perpetual or per-major-version licenses count).
+- macOS app with a public product page and license terms link when available.
+- Mac App Store entries may omit price (regional pricing).
+
+## How to query
+
+- Full catalog (JSON): https://barelyhuman.github.io/one-time-mac/api/products.json
+- Categories index: https://barelyhuman.github.io/one-time-mac/api/categories.json
+- Per category: https://barelyhuman.github.io/one-time-mac/api/categories/<slug>.json (slugs match category names, e.g. developer-tools)
+- Plain markdown export: https://barelyhuman.github.io/one-time-mac/llms-full.txt
+- Human UI with search: https://barelyhuman.github.io/one-time-mac/?q=<term>&category=<slug>
+
+Filter JSON client-side by name, category, price, or license fields. For the HTML UI, share or fetch URLs with query parameters above.
+
+## Data files
+
+- [Product catalog API](https://barelyhuman.github.io/one-time-mac/api/products.json): all products with price, currency, and license URLs
+- [Categories API](https://barelyhuman.github.io/one-time-mac/api/categories.json): category slugs and counts
+- [Full list (markdown)](https://barelyhuman.github.io/one-time-mac/llms-full.txt): same data as plain text
+- [Sitemap](https://barelyhuman.github.io/one-time-mac/sitemap.xml)
+
+## Optional
+
+- [GitHub repository](https://github.com/barelyhuman/one-time-mac): propose additions via pull request

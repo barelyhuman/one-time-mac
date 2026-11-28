@@ -1,0 +1,104 @@
+{
+  "generated_at": "2026-11-28T10:19:17.936Z",
+  "name": "Productivity & Automation",
+  "slug": "productivity-automation",
+  "count": 8,
+  "products": [
+    {
+      "name": "Alfred",
+      "slug": "alfred",
+      "url": "https://www.alfredapp.com/powerpack/",
+      "price": "£40",
+      "currency": "GBP",
+      "price_value": 40,
+      "license_url": "https://www.alfredapp.com/help/powerpack/license-types/",
+      "category": "Productivity & Automation",
+      "category_slug": "productivity-automation",
+      "generated_at": "2026-11-28T10:19:17.936Z"
+    },
+    {
+      "name": "ClipsPal",
+      "slug": "clipspal",
+      "url": "https://www.clipspal.com",
+      "price": "$69",
+      "currency": "USD",
+      "price_value": 69,
+      "license_url": "https://www.clipspal.com/tos",
+      "category": "Productivity & Automation",
+      "category_slug": "productivity-automation",
+      "generated_at": "2026-11-28T10:19:17.936Z"
+    },
+    {
+      "name": "Hazel",
+      "slug": "hazel",
+      "url": "https://store.noodlesoft.com/store/",
+      "price": "$42",
+      "currency": "USD",
+      "price_value": 42,
+      "license_url": "https://store.noodlesoft.com/store/",
+      "category": "Productivity & Automation",
+      "category_slug": "productivity-automation",
+      "generated_at": "2026-11-28T10:19:17.936Z"
+    },
+    {
+      "name": "Keyboard Maestro",
+      "slug": "keyboard-maestro",
+      "url": "https://www.keyboardmaestro.com/main/",
+      "price": "$36",
+      "currency": "USD",
+      "price_value": 36,
+      "license_url": "https://www.keyboardmaestro.com/main/",
+      "category": "Productivity & Automation",
+      "category_slug": "productivity-automation",
+      "generated_at": "2026-11-28T10:19:17.936Z"
+    },
+    {
+      "name": "Soulver",
+      "slug": "soulver",
+      "url": "https://soulver.app/",
+      "price": "$59",
+      "currency": "USD",
+      "price_value": 59,
+      "license_url": "https://soulver.app/",
+      "category": "Productivity & Automation",
+      "category_slug": "productivity-automation",
+      "generated_at": "2026-11-28T10:19:17.936Z"
+    },
+    {
+      "name": "TaskPaper",
+      "slug": "taskpaper",
+      "url": "https://www.taskpaper.com",
+      "price": "$24",
+      "currency": "USD",
+      "price_value": 24,
+      "license_url": "https://support.hogbaysoftware.com/t/how-does-my-license-work/2665?u=jessegrosjean",
+      "category": "Productivity & Automation",
+      "category_slug": "productivity-automation",
+      "generated_at": "2026-11-28T10:19:17.936Z"
+    },
+    {
+      "name": "Things 3",
+      "slug": "things-3",
+      "url": "https://apps.apple.com/us/app/things-3/id904280696",
+      "price": null,
+      "currency": null,
+      "price_value": null,
+      "license_url": "https://apps.apple.com/us/app/things-3/id904280696",
+      "category": "Productivity & Automation",
+      "category_slug": "productivity-automation",
+      "generated_at": "2026-11-28T10:19:17.936Z"
+    },
+    {
+      "name": "Wow Keywords",
+      "slug": "wow-keywords",
+      "url": "https://wowkeywords.com",
+      "price": "$99",
+      "currency": "USD",
+      "price_value": 99,
+      "license_url": "https://wowkeywords.com/tos",
+      "category": "Productivity & Automation",
+      "category_slug": "productivity-automation",
+      "generated_at": "2026-11-28T10:19:17.936Z"
+    }
+  ]
+}

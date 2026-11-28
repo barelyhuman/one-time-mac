@@ -1,0 +1,68 @@
+{
+  "generated_at": "2026-11-28T10:19:17.936Z",
+  "name": "Screenshots, Media & Design",
+  "slug": "screenshots-media-design",
+  "count": 5,
+  "products": [
+    {
+      "name": "CleanShot X",
+      "slug": "cleanshot-x",
+      "url": "https://cleanshot.com/pricing",
+      "price": "$35",
+      "currency": "USD",
+      "price_value": 35,
+      "license_url": "https://cleanshot.com/eula",
+      "category": "Screenshots, Media & Design",
+      "category_slug": "screenshots-media-design",
+      "generated_at": "2026-11-28T10:19:17.936Z"
+    },
+    {
+      "name": "Doppelgone",
+      "slug": "doppelgone",
+      "url": "https://doppelgone.app",
+      "price": "$9.99",
+      "currency": "USD",
+      "price_value": 9.99,
+      "license_url": "https://doppelgone.app/terms",
+      "category": "Screenshots, Media & Design",
+      "category_slug": "screenshots-media-design",
+      "generated_at": "2026-11-28T10:19:17.936Z"
+    },
+    {
+      "name": "MacWhisper",
+      "slug": "macwhisper",
+      "url": "https://www.macwhisper.com/",
+      "price": "64€",
+      "currency": "EUR",
+      "price_value": 64,
+      "license_url": "https://www.macwhisper.com/",
+      "category": "Screenshots, Media & Design",
+      "category_slug": "screenshots-media-design",
+      "generated_at": "2026-11-28T10:19:17.936Z"
+    },
+    {
+      "name": "Pixelmator Pro",
+      "slug": "pixelmator-pro",
+      "url": "https://apps.apple.com/us/app/pixelmator-pro/id1289583905",
+      "price": null,
+      "currency": null,
+      "price_value": null,
+      "license_url": "https://apps.apple.com/us/app/pixelmator-pro/id1289583905",
+      "category": "Screenshots, Media & Design",
+      "category_slug": "screenshots-media-design",
+      "generated_at": "2026-11-28T10:19:17.936Z"
+    },
+    {
+      "name": "Scribbble",
+      "slug": "scribbble",
+      "url": "https://www.scribbble.app/pricing",
+      "price": "$12",
+      "currency": "USD",
+      "price_value": 12,
+      "license_url": "https://www.scribbble.app/pricing",
+      "category": "Screenshots, Media & Design",
+      "category_slug": "screenshots-media-design",
+      "generated_at": "2026-11-28T10:19:17.936Z"
+    }
+  ]
+}
