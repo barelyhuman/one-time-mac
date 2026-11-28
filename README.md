@@ -50,3 +50,4 @@ license
 - [TablePlus](https://tableplus.com/pricing) - $99 - [License](https://tableplus.com/blog/2018/01/license-agreement.html)
 - [Things 3](https://apps.apple.com/us/app/things-3/id904280696) - [License](https://apps.apple.com/us/app/things-3/id904280696)
 - [Transmit](https://panic.com/transmit/) - $45 - [License](https://panic.com/transmit/)
+- [Wow Keywords](https://wowkeywords.com) - $99 - [License](https://wowkeywords.com/tos)
