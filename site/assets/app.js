@@ -13,7 +13,9 @@
     count: document.getElementById("result-count"),
     tbody: document.getElementById("product-tbody"),
     cards: document.getElementById("product-cards"),
+    empty: document.getElementById("empty-state"),
     sortButtons: document.querySelectorAll(".sort-btn"),
+    sortHeaders: document.querySelectorAll("th[data-sort-key]"),
   };
 
   function escapeHtml(s) {
@@ -22,6 +24,10 @@
       .replace(/</g, "&lt;")
       .replace(/>/g, "&gt;")
       .replace(/"/g, "&quot;");
+  }
+
+  function externalLink(url, label) {
+    return `<a href="${escapeHtml(url)}" rel="noopener noreferrer">${escapeHtml(label)}</a>`;
   }
 
   function searchBlob(p) {
@@ -83,7 +89,7 @@
 
   function renderLicense(p) {
     if (p.licenseUrl && p.licenseLabel) {
-      return `<a href="${escapeHtml(p.licenseUrl)}">${escapeHtml(p.licenseLabel)}</a>`;
+      return externalLink(p.licenseUrl, p.licenseLabel);
     }
     return '<span class="muted">—</span>';
   }
@@ -96,7 +102,7 @@
     els.tbody.innerHTML = rows
       .map(
         (p) => `<tr>
-          <td><a href="${escapeHtml(p.productUrl)}">${escapeHtml(p.name)}</a></td>
+          <td>${externalLink(p.productUrl, p.name)}</td>
           <td>${escapeHtml(p.category)}</td>
           <td>${renderPrice(p)}</td>
           <td>${renderLicense(p)}</td>
@@ -111,7 +117,7 @@
         (p) => `<li class="product-card">
           <dl>
             <dt>Name</dt>
-            <dd class="card-name"><a href="${escapeHtml(p.productUrl)}">${escapeHtml(p.name)}</a></dd>
+            <dd class="card-name">${externalLink(p.productUrl, p.name)}</dd>
             <dt>Category</dt>
             <dd>${escapeHtml(p.category)}</dd>
             <dt>Price</dt>
@@ -132,6 +138,17 @@
         btn.removeAttribute("data-dir");
       }
     });
+    els.sortHeaders.forEach((th) => {
+      const key = th.dataset.sortKey;
+      if (key === sortKey) {
+        th.setAttribute(
+          "aria-sort",
+          sortDir === "asc" ? "ascending" : "descending"
+        );
+      } else {
+        th.setAttribute("aria-sort", "none");
+      }
+    });
   }
 
   function render() {
@@ -142,8 +159,16 @@
       n === total
         ? `Showing all ${total} apps`
         : `Showing ${n} of ${total} apps`;
-    renderTable(rows);
-    renderCards(rows);
+
+    if (n === 0) {
+      els.empty.hidden = false;
+      els.tbody.innerHTML = "";
+      els.cards.innerHTML = "";
+    } else {
+      els.empty.hidden = true;
+      renderTable(rows);
+      renderCards(rows);
+    }
     updateSortIndicators();
   }
 
@@ -152,7 +177,7 @@
     els.chips.innerHTML = cats
       .map(
         (c) =>
-          `<button type="button" class="chip" data-category="${escapeHtml(c)}" aria-pressed="${c === "All" ? "true" : "false"}">${escapeHtml(c)}</button>`
+          `<button type="button" class="chip" role="radio" data-category="${escapeHtml(c)}" aria-checked="${c === "All" ? "true" : "false"}">${escapeHtml(c)}</button>`
       )
       .join("");
 
@@ -162,7 +187,7 @@
       categoryFilter = btn.dataset.category;
       els.chips.querySelectorAll(".chip").forEach((chip) => {
         chip.setAttribute(
-          "aria-pressed",
+          "aria-checked",
           chip.dataset.category === categoryFilter ? "true" : "false"
         );
       });
@@ -182,7 +207,7 @@
         sortDir = sortDir === "asc" ? "desc" : "asc";
       } else {
         sortKey = key;
-        sortDir = key === "price" ? "asc" : "asc";
+        sortDir = "asc";
       }
       render();
     });

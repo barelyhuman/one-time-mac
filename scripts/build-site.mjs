@@ -38,9 +38,10 @@ function parsePriceSort(price) {
     return { currency: "", value: null, missing: true };
   }
   const trimmed = price.trim();
-  const currencyMatch = trimmed.match(/^([$£€])/);
+  const currencyMatch =
+    trimmed.match(/^([$£€])/) || trimmed.match(/([$£€])\s*$/);
   const currency = currencyMatch ? currencyMatch[1] : "";
-  const numPart = trimmed.replace(/^[^0-9]*/, "").replace(/,/g, "");
+  const numPart = trimmed.replace(/[^0-9.,]/g, "").replace(/,/g, "");
   const value = parseFloat(numPart);
   return {
     currency,

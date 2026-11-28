@@ -435,7 +435,7 @@
       "category": "Screenshots, Media & Design",
       "price": "64€",
       "priceSort": {
-        "currency": "",
+        "currency": "€",
         "value": 64,
         "missing": false,
         "raw": "64€"
@@ -476,7 +476,7 @@
       "category": "Network & Security",
       "price": "59€",
       "priceSort": {
-        "currency": "",
+        "currency": "€",
         "value": 59,
         "missing": false,
         "raw": "59€"
@@ -498,5 +498,5 @@
       "licenseLabel": null
     }
   ],
-  "generatedAt": "2026-11-28T09:54:02.613Z"
+  "generatedAt": "2026-11-28T10:12:33.404Z"
 }

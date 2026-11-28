@@ -19,8 +19,8 @@
           Community-sourced Mac apps with one-time lifetime licenses.
         </p>
         <nav class="site-nav" aria-label="Related links">
-          <a href="https://github.com/barelyhuman/one-time-mac">View on GitHub</a>
-          <a href="https://github.com/barelyhuman/one-time-mac#how-to-add">How to Add</a>
+          <a href="https://github.com/barelyhuman/one-time-mac" rel="noopener noreferrer">View on GitHub</a>
+          <a href="https://github.com/barelyhuman/one-time-mac#how-to-add" rel="noopener noreferrer">How to Add</a>
         </nav>
       </div>
     </header>
@@ -43,7 +43,7 @@
           <div
             class="category-chips"
             id="category-chips"
-            role="group"
+            role="radiogroup"
             aria-labelledby="category-label"
           ></div>
         </div>
@@ -58,17 +58,17 @@
           </caption>
           <thead>
             <tr>
-              <th scope="col">
+              <th scope="col" data-sort-key="name" aria-sort="ascending">
                 <button type="button" class="sort-btn" data-sort="name">
                   Name <span class="sort-indicator" aria-hidden="true"></span>
                 </button>
               </th>
-              <th scope="col">
+              <th scope="col" data-sort-key="category" aria-sort="none">
                 <button type="button" class="sort-btn" data-sort="category">
                   Category <span class="sort-indicator" aria-hidden="true"></span>
                 </button>
               </th>
-              <th scope="col">
+              <th scope="col" data-sort-key="price" aria-sort="none">
                 <button type="button" class="sort-btn" data-sort="price">
                   Price <span class="sort-indicator" aria-hidden="true"></span>
                 </button>
@@ -78,6 +78,7 @@
           </thead>
           <tbody id="product-tbody"></tbody>
         </table>
+        <p class="empty-state" id="empty-state" hidden>No apps match your search or filters.</p>
         <ul class="product-cards" id="product-cards" aria-label="Product list (compact view)"></ul>
       </section>
     </main>
@@ -85,7 +86,7 @@
     <footer class="site-footer wrap">
       <p>
         Data from
-        <a href="https://github.com/barelyhuman/one-time-mac/blob/main/README.md">README.md</a>.
+        <a href="https://github.com/barelyhuman/one-time-mac/blob/main/README.md" rel="noopener noreferrer">README.md</a>.
         Contributions welcome.
       </p>
     </footer>

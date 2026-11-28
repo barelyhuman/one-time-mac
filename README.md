@@ -5,7 +5,7 @@ license
 
 The site is rebuilt automatically on every push to `main` (from this README). No separate site edits are required—update the product list here and merge.
 
-**How to Add**
+## How to Add
 
 - Raise a PR following the mentioned convention
 - Add your entry as a single line under the most fitting category below, in
@@ -15,7 +15,7 @@ The site is rebuilt automatically on every push to `main` (from this README). No
 - Each line should include the Name, link to product, link to license terms,
   and Price of the product (Mac Store apps may omit Price)
 
-**Conditions**
+## Conditions
 
 - Has a one time purchase fee for the license
 - The license can be for that product forever or per version of that product,
