@@ -1,0 +1,116 @@
+{
+  "generated_at": "2026-11-28T10:16:36.352Z",
+  "name": "Developer Tools",
+  "slug": "developer-tools",
+  "count": 9,
+  "products": [
+    {
+      "name": "BBEdit",
+      "slug": "bbedit",
+      "url": "https://www.barebones.com/store/index.html",
+      "price": "$59.99",
+      "currency": "USD",
+      "price_value": 59.99,
+      "license_url": "https://www.barebones.com/store/license_agreements.html",
+      "category": "Developer Tools",
+      "category_slug": "developer-tools",
+      "generated_at": "2026-11-28T10:16:36.352Z"
+    },
+    {
+      "name": "Charles Proxy",
+      "slug": "charles-proxy",
+      "url": "https://www.charlesproxy.com/buy/",
+      "price": "$50",
+      "currency": "USD",
+      "price_value": 50,
+      "license_url": "https://www.charlesproxy.com/buy/eula/",
+      "category": "Developer Tools",
+      "category_slug": "developer-tools",
+      "generated_at": "2026-11-28T10:16:36.352Z"
+    },
+    {
+      "name": "Fork",
+      "slug": "fork",
+      "url": "https://fork.dev/",
+      "price": "$59.99",
+      "currency": "USD",
+      "price_value": 59.99,
+      "license_url": "https://fork.dev/license",
+      "category": "Developer Tools",
+      "category_slug": "developer-tools",
+      "generated_at": "2026-11-28T10:16:36.352Z"
+    },
+    {
+      "name": "Nova",
+      "slug": "nova",
+      "url": "https://nova.app/buy/",
+      "price": "$99",
+      "currency": "USD",
+      "price_value": 99,
+      "license_url": "https://help.nova.app/faqs/purchasing/",
+      "category": "Developer Tools",
+      "category_slug": "developer-tools",
+      "generated_at": "2026-11-28T10:16:36.352Z"
+    },
+    {
+      "name": "Paw",
+      "slug": "paw",
+      "url": "https://paw.cloud/purchase",
+      "price": "$50",
+      "currency": "USD",
+      "price_value": 50,
+      "license_url": "https://paw.cloud/terms",
+      "category": "Developer Tools",
+      "category_slug": "developer-tools",
+      "generated_at": "2026-11-28T10:16:36.352Z"
+    },
+    {
+      "name": "Proxyman",
+      "slug": "proxyman",
+      "url": "https://proxyman.com/pricing",
+      "price": "$89",
+      "currency": "USD",
+      "price_value": 89,
+      "license_url": "https://proxyman.com/eula",
+      "category": "Developer Tools",
+      "category_slug": "developer-tools",
+      "generated_at": "2026-11-28T10:16:36.352Z"
+    },
+    {
+      "name": "Sublime Merge",
+      "slug": "sublime-merge",
+      "url": "https://www.sublimehq.com/store/merge",
+      "price": "$99",
+      "currency": "USD",
+      "price_value": 99,
+      "license_url": "https://www.sublimehq.com/eula",
+      "category": "Developer Tools",
+      "category_slug": "developer-tools",
+      "generated_at": "2026-11-28T10:16:36.352Z"
+    },
+    {
+      "name": "Sublime Text",
+      "slug": "sublime-text",
+      "url": "https://www.sublimehq.com/store/text",
+      "price": "$99",
+      "currency": "USD",
+      "price_value": 99,
+      "license_url": "https://www.sublimehq.com/eula",
+      "category": "Developer Tools",
+      "category_slug": "developer-tools",
+      "generated_at": "2026-11-28T10:16:36.352Z"
+    },
+    {
+      "name": "TablePlus",
+      "slug": "tableplus",
+      "url": "https://tableplus.com/pricing",
+      "price": "$99",
+      "currency": "USD",
+      "price_value": 99,
+      "license_url": "https://tableplus.com/blog/2018/01/license-agreement.html",
+      "category": "Developer Tools",
+      "category_slug": "developer-tools",
+      "generated_at": "2026-11-28T10:16:36.352Z"
+    }
+  ]
+}

@@ -1,19 +1,42 @@
 {
   "description": "A community sourced set of products for Mac that have a one time lifetime license",
   "categories": [
-    "Developer Tools",
-    "Productivity & Automation",
-    "Writing & Notes",
-    "Window & Menu Bar Utilities",
-    "Files & Storage",
-    "Screenshots, Media & Design",
-    "Network & Security"
+    {
+      "name": "Developer Tools",
+      "slug": "developer-tools"
+    },
+    {
+      "name": "Productivity & Automation",
+      "slug": "productivity-automation"
+    },
+    {
+      "name": "Writing & Notes",
+      "slug": "writing-notes"
+    },
+    {
+      "name": "Window & Menu Bar Utilities",
+      "slug": "window-menu-bar-utilities"
+    },
+    {
+      "name": "Files & Storage",
+      "slug": "files-storage"
+    },
+    {
+      "name": "Screenshots, Media & Design",
+      "slug": "screenshots-media-design"
+    },
+    {
+      "name": "Network & Security",
+      "slug": "network-security"
+    }
   ],
   "products": [
     {
       "name": "BBEdit",
+      "slug": "bbedit",
       "productUrl": "https://www.barebones.com/store/index.html",
       "category": "Developer Tools",
+      "categorySlug": "developer-tools",
       "price": "$59.99",
       "priceSort": {
         "currency": "$",
@@ -26,8 +49,10 @@
     },
     {
       "name": "Charles Proxy",
+      "slug": "charles-proxy",
       "productUrl": "https://www.charlesproxy.com/buy/",
       "category": "Developer Tools",
+      "categorySlug": "developer-tools",
       "price": "$50",
       "priceSort": {
         "currency": "$",
@@ -40,8 +65,10 @@
     },
     {
       "name": "Fork",
+      "slug": "fork",
       "productUrl": "https://fork.dev/",
       "category": "Developer Tools",
+      "categorySlug": "developer-tools",
       "price": "$59.99",
       "priceSort": {
         "currency": "$",
@@ -54,8 +81,10 @@
     },
     {
       "name": "Nova",
+      "slug": "nova",
       "productUrl": "https://nova.app/buy/",
       "category": "Developer Tools",
+      "categorySlug": "developer-tools",
       "price": "$99",
       "priceSort": {
         "currency": "$",
@@ -68,8 +97,10 @@
     },
     {
       "name": "Paw",
+      "slug": "paw",
       "productUrl": "https://paw.cloud/purchase",
       "category": "Developer Tools",
+      "categorySlug": "developer-tools",
       "price": "$50",
       "priceSort": {
         "currency": "$",
@@ -82,8 +113,10 @@
     },
     {
       "name": "Proxyman",
+      "slug": "proxyman",
       "productUrl": "https://proxyman.com/pricing",
       "category": "Developer Tools",
+      "categorySlug": "developer-tools",
       "price": "$89",
       "priceSort": {
         "currency": "$",
@@ -96,8 +129,10 @@
     },
     {
       "name": "Sublime Merge",
+      "slug": "sublime-merge",
       "productUrl": "https://www.sublimehq.com/store/merge",
       "category": "Developer Tools",
+      "categorySlug": "developer-tools",
       "price": "$99",
       "priceSort": {
         "currency": "$",
@@ -110,8 +145,10 @@
     },
     {
       "name": "Sublime Text",
+      "slug": "sublime-text",
       "productUrl": "https://www.sublimehq.com/store/text",
       "category": "Developer Tools",
+      "categorySlug": "developer-tools",
       "price": "$99",
       "priceSort": {
         "currency": "$",
@@ -124,8 +161,10 @@
     },
     {
       "name": "TablePlus",
+      "slug": "tableplus",
       "productUrl": "https://tableplus.com/pricing",
       "category": "Developer Tools",
+      "categorySlug": "developer-tools",
       "price": "$99",
       "priceSort": {
         "currency": "$",
@@ -138,8 +177,10 @@
     },
     {
       "name": "Alfred",
+      "slug": "alfred",
       "productUrl": "https://www.alfredapp.com/powerpack/",
       "category": "Productivity & Automation",
+      "categorySlug": "productivity-automation",
       "price": "£40",
       "priceSort": {
         "currency": "£",
@@ -152,8 +193,10 @@
     },
     {
       "name": "ClipsPal",
+      "slug": "clipspal",
       "productUrl": "https://www.clipspal.com",
       "category": "Productivity & Automation",
+      "categorySlug": "productivity-automation",
       "price": "$69",
       "priceSort": {
         "currency": "$",
@@ -166,8 +209,10 @@
     },
     {
       "name": "Hazel",
+      "slug": "hazel",
       "productUrl": "https://store.noodlesoft.com/store/",
       "category": "Productivity & Automation",
+      "categorySlug": "productivity-automation",
       "price": "$42",
       "priceSort": {
         "currency": "$",
@@ -180,8 +225,10 @@
     },
     {
       "name": "Keyboard Maestro",
+      "slug": "keyboard-maestro",
       "productUrl": "https://www.keyboardmaestro.com/main/",
       "category": "Productivity & Automation",
+      "categorySlug": "productivity-automation",
       "price": "$36",
       "priceSort": {
         "currency": "$",
@@ -194,8 +241,10 @@
     },
     {
       "name": "Soulver",
+      "slug": "soulver",
       "productUrl": "https://soulver.app/",
       "category": "Productivity & Automation",
+      "categorySlug": "productivity-automation",
       "price": "$59",
       "priceSort": {
         "currency": "$",
@@ -208,8 +257,10 @@
     },
     {
       "name": "TaskPaper",
+      "slug": "taskpaper",
       "productUrl": "https://www.taskpaper.com",
       "category": "Productivity & Automation",
+      "categorySlug": "productivity-automation",
       "price": "$24",
       "priceSort": {
         "currency": "$",
@@ -222,8 +273,10 @@
     },
     {
       "name": "Things 3",
+      "slug": "things-3",
       "productUrl": "https://apps.apple.com/us/app/things-3/id904280696",
       "category": "Productivity & Automation",
+      "categorySlug": "productivity-automation",
       "price": null,
       "priceSort": {
         "currency": "",
@@ -235,8 +288,10 @@
     },
     {
       "name": "Wow Keywords",
+      "slug": "wow-keywords",
       "productUrl": "https://wowkeywords.com",
       "category": "Productivity & Automation",
+      "categorySlug": "productivity-automation",
       "price": "$99",
       "priceSort": {
         "currency": "$",
@@ -249,8 +304,10 @@
     },
     {
       "name": "DEVONthink",
+      "slug": "devonthink",
       "productUrl": "https://www.devontechnologies.com/apps/devonthink",
       "category": "Writing & Notes",
+      "categorySlug": "writing-notes",
       "price": "$74",
       "priceSort": {
         "currency": "$",
@@ -263,8 +320,10 @@
     },
     {
       "name": "iA Writer",
+      "slug": "ia-writer",
       "productUrl": "https://ia.net/writer/pricing",
       "category": "Writing & Notes",
+      "categorySlug": "writing-notes",
       "price": "$49.99",
       "priceSort": {
         "currency": "$",
@@ -277,8 +336,10 @@
     },
     {
       "name": "Typora",
+      "slug": "typora",
       "productUrl": "https://typora.io/",
       "category": "Writing & Notes",
+      "categorySlug": "writing-notes",
       "price": "$14.99",
       "priceSort": {
         "currency": "$",
@@ -291,8 +352,10 @@
     },
     {
       "name": "AltTab",
+      "slug": "alttab",
       "productUrl": "https://alt-tab.app/pricing",
       "category": "Window & Menu Bar Utilities",
+      "categorySlug": "window-menu-bar-utilities",
       "price": "$24.99",
       "priceSort": {
         "currency": "$",
@@ -305,8 +368,10 @@
     },
     {
       "name": "BetterTouchTool",
+      "slug": "bettertouchtool",
       "productUrl": "https://folivora.ai/",
       "category": "Window & Menu Bar Utilities",
+      "categorySlug": "window-menu-bar-utilities",
       "price": "$25",
       "priceSort": {
         "currency": "$",
@@ -319,8 +384,10 @@
     },
     {
       "name": "Lunar",
+      "slug": "lunar",
       "productUrl": "https://lunar.fyi/",
       "category": "Window & Menu Bar Utilities",
+      "categorySlug": "window-menu-bar-utilities",
       "price": "$23",
       "priceSort": {
         "currency": "$",
@@ -333,8 +400,10 @@
     },
     {
       "name": "Moom",
+      "slug": "moom",
       "productUrl": "https://manytricks.com/moom/",
       "category": "Window & Menu Bar Utilities",
+      "categorySlug": "window-menu-bar-utilities",
       "price": "$15",
       "priceSort": {
         "currency": "$",
@@ -347,8 +416,10 @@
     },
     {
       "name": "DaisyDisk",
+      "slug": "daisydisk",
       "productUrl": "https://daisydiskapp.com/",
       "category": "Files & Storage",
+      "categorySlug": "files-storage",
       "price": "$9.99",
       "priceSort": {
         "currency": "$",
@@ -361,8 +432,10 @@
     },
     {
       "name": "Default Folder X",
+      "slug": "default-folder-x",
       "productUrl": "https://www.stclairsoft.com/DefaultFolderX/",
       "category": "Files & Storage",
+      "categorySlug": "files-storage",
       "price": "$39.95",
       "priceSort": {
         "currency": "$",
@@ -375,8 +448,10 @@
     },
     {
       "name": "ForkLift",
+      "slug": "forklift",
       "productUrl": "https://binarynights.com/store",
       "category": "Files & Storage",
+      "categorySlug": "files-storage",
       "price": "$19.95",
       "priceSort": {
         "currency": "$",
@@ -389,8 +464,10 @@
     },
     {
       "name": "Transmit",
+      "slug": "transmit",
       "productUrl": "https://panic.com/transmit/",
       "category": "Files & Storage",
+      "categorySlug": "files-storage",
       "price": "$45",
       "priceSort": {
         "currency": "$",
@@ -403,8 +480,10 @@
     },
     {
       "name": "CleanShot X",
+      "slug": "cleanshot-x",
       "productUrl": "https://cleanshot.com/pricing",
       "category": "Screenshots, Media & Design",
+      "categorySlug": "screenshots-media-design",
       "price": "$35",
       "priceSort": {
         "currency": "$",
@@ -417,8 +496,10 @@
     },
     {
       "name": "Doppelgone",
+      "slug": "doppelgone",
       "productUrl": "https://doppelgone.app",
       "category": "Screenshots, Media & Design",
+      "categorySlug": "screenshots-media-design",
       "price": "$9.99",
       "priceSort": {
         "currency": "$",
@@ -431,8 +512,10 @@
     },
     {
       "name": "MacWhisper",
+      "slug": "macwhisper",
       "productUrl": "https://www.macwhisper.com/",
       "category": "Screenshots, Media & Design",
+      "categorySlug": "screenshots-media-design",
       "price": "64€",
       "priceSort": {
         "currency": "€",
@@ -445,8 +528,10 @@
     },
     {
       "name": "Pixelmator Pro",
+      "slug": "pixelmator-pro",
       "productUrl": "https://apps.apple.com/us/app/pixelmator-pro/id1289583905",
       "category": "Screenshots, Media & Design",
+      "categorySlug": "screenshots-media-design",
       "price": null,
       "priceSort": {
         "currency": "",
@@ -458,8 +543,10 @@
     },
     {
       "name": "Scribbble",
+      "slug": "scribbble",
       "productUrl": "https://www.scribbble.app/pricing",
       "category": "Screenshots, Media & Design",
+      "categorySlug": "screenshots-media-design",
       "price": "$12",
       "priceSort": {
         "currency": "$",
@@ -472,8 +559,10 @@
     },
     {
       "name": "Little Snitch",
+      "slug": "little-snitch",
       "productUrl": "https://www.obdev.at/products/littlesnitch/order.html",
       "category": "Network & Security",
+      "categorySlug": "network-security",
       "price": "59€",
       "priceSort": {
         "currency": "€",
@@ -486,8 +575,10 @@
     },
     {
       "name": "Wipr 2",
+      "slug": "wipr-2",
       "productUrl": "https://apps.apple.com/us/app/wipr-2/id1662217862",
       "category": "Network & Security",
+      "categorySlug": "network-security",
       "price": null,
       "priceSort": {
         "currency": "",
@@ -498,5 +589,5 @@
       "licenseLabel": null
     }
   ],
-  "generatedAt": "2026-11-28T10:12:33.404Z"
+  "generatedAt": "2026-11-28T10:16:36.352Z"
 }

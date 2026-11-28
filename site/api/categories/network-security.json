@@ -1,0 +1,32 @@
+{
+  "generated_at": "2026-11-28T10:16:36.352Z",
+  "name": "Network & Security",
+  "slug": "network-security",
+  "count": 2,
+  "products": [
+    {
+      "name": "Little Snitch",
+      "slug": "little-snitch",
+      "url": "https://www.obdev.at/products/littlesnitch/order.html",
+      "price": "59€",
+      "currency": "EUR",
+      "price_value": 59,
+      "license_url": "https://www.obdev.at/terms-and-conditions.html",
+      "category": "Network & Security",
+      "category_slug": "network-security",
+      "generated_at": "2026-11-28T10:16:36.352Z"
+    },
+    {
+      "name": "Wipr 2",
+      "slug": "wipr-2",
+      "url": "https://apps.apple.com/us/app/wipr-2/id1662217862",
+      "price": null,
+      "currency": null,
+      "price_value": null,
+      "license_url": null,
+      "category": "Network & Security",
+      "category_slug": "network-security",
+      "generated_at": "2026-11-28T10:16:36.352Z"
+    }
+  ]
+}

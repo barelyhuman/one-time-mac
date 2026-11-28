@@ -1,0 +1,47 @@
+{
+  "generated_at": "2026-11-28T10:16:36.352Z",
+  "categories": [
+    {
+      "name": "Developer Tools",
+      "slug": "developer-tools",
+      "count": 9,
+      "url": "https://barelyhuman.github.io/one-time-mac/api/categories/developer-tools.json"
+    },
+    {
+      "name": "Productivity & Automation",
+      "slug": "productivity-automation",
+      "count": 8,
+      "url": "https://barelyhuman.github.io/one-time-mac/api/categories/productivity-automation.json"
+    },
+    {
+      "name": "Writing & Notes",
+      "slug": "writing-notes",
+      "count": 3,
+      "url": "https://barelyhuman.github.io/one-time-mac/api/categories/writing-notes.json"
+    },
+    {
+      "name": "Window & Menu Bar Utilities",
+      "slug": "window-menu-bar-utilities",
+      "count": 4,
+      "url": "https://barelyhuman.github.io/one-time-mac/api/categories/window-menu-bar-utilities.json"
+    },
+    {
+      "name": "Files & Storage",
+      "slug": "files-storage",
+      "count": 4,
+      "url": "https://barelyhuman.github.io/one-time-mac/api/categories/files-storage.json"
+    },
+    {
+      "name": "Screenshots, Media & Design",
+      "slug": "screenshots-media-design",
+      "count": 5,
+      "url": "https://barelyhuman.github.io/one-time-mac/api/categories/screenshots-media-design.json"
+    },
+    {
+      "name": "Network & Security",
+      "slug": "network-security",
+      "count": 2,
+      "url": "https://barelyhuman.github.io/one-time-mac/api/categories/network-security.json"
+    }
+  ]
+}

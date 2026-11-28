@@ -22,6 +22,18 @@ The site is rebuilt automatically on every push to `main` (from this README). No
   both are valid.
 - Mac Store apps can be added without a Price since they change based on regions
 
+## For agents
+
+Machine-readable exports (rebuilt on every push to `main` from this README):
+
+- [llms.txt](https://barelyhuman.github.io/one-time-mac/llms.txt) — summary, criteria, and how to query the data
+- [llms-full.txt](https://barelyhuman.github.io/one-time-mac/llms-full.txt) — full list as plain markdown by category
+- [api/products.json](https://barelyhuman.github.io/one-time-mac/api/products.json) — all products (`name`, `slug`, `url`, `price`, `currency`, `price_value`, `license_url`, `category`, `category_slug`, `generated_at`)
+- [api/categories.json](https://barelyhuman.github.io/one-time-mac/api/categories.json) — category slugs and counts
+- Per category: `https://barelyhuman.github.io/one-time-mac/api/categories/<slug>.json` (e.g. [developer-tools](https://barelyhuman.github.io/one-time-mac/api/categories/developer-tools.json))
+- [sitemap.xml](https://barelyhuman.github.io/one-time-mac/sitemap.xml) and [robots.txt](https://barelyhuman.github.io/one-time-mac/robots.txt)
+
+Human UI with shareable filters: `https://barelyhuman.github.io/one-time-mac/?q=<term>&category=<slug>` (example: [?q=alfred&category=productivity-automation](https://barelyhuman.github.io/one-time-mac/?q=alfred&category=productivity-automation)).
 
 ## Products
 

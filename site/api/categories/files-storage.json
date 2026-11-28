@@ -1,0 +1,56 @@
+{
+  "generated_at": "2026-11-28T10:16:36.352Z",
+  "name": "Files & Storage",
+  "slug": "files-storage",
+  "count": 4,
+  "products": [
+    {
+      "name": "DaisyDisk",
+      "slug": "daisydisk",
+      "url": "https://daisydiskapp.com/",
+      "price": "$9.99",
+      "currency": "USD",
+      "price_value": 9.99,
+      "license_url": "https://daisydiskapp.com/eula",
+      "category": "Files & Storage",
+      "category_slug": "files-storage",
+      "generated_at": "2026-11-28T10:16:36.352Z"
+    },
+    {
+      "name": "Default Folder X",
+      "slug": "default-folder-x",
+      "url": "https://www.stclairsoft.com/DefaultFolderX/",
+      "price": "$39.95",
+      "currency": "USD",
+      "price_value": 39.95,
+      "license_url": "https://www.stclairsoft.com/DefaultFolderX/faq.html",
+      "category": "Files & Storage",
+      "category_slug": "files-storage",
+      "generated_at": "2026-11-28T10:16:36.352Z"
+    },
+    {
+      "name": "ForkLift",
+      "slug": "forklift",
+      "url": "https://binarynights.com/store",
+      "price": "$19.95",
+      "currency": "USD",
+      "price_value": 19.95,
+      "license_url": "https://binarynights.com/store",
+      "category": "Files & Storage",
+      "category_slug": "files-storage",
+      "generated_at": "2026-11-28T10:16:36.352Z"
+    },
+    {
+      "name": "Transmit",
+      "slug": "transmit",
+      "url": "https://panic.com/transmit/",
+      "price": "$45",
+      "currency": "USD",
+      "price_value": 45,
+      "license_url": "https://panic.com/transmit/",
+      "category": "Files & Storage",
+      "category_slug": "files-storage",
+      "generated_at": "2026-11-28T10:16:36.352Z"
+    }
+  ]
+}

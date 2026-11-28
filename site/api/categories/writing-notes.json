@@ -1,0 +1,44 @@
+{
+  "generated_at": "2026-11-28T10:16:36.352Z",
+  "name": "Writing & Notes",
+  "slug": "writing-notes",
+  "count": 3,
+  "products": [
+    {
+      "name": "DEVONthink",
+      "slug": "devonthink",
+      "url": "https://www.devontechnologies.com/apps/devonthink",
+      "price": "$74",
+      "currency": "USD",
+      "price_value": 74,
+      "license_url": "https://www.devontechnologies.com/legal",
+      "category": "Writing & Notes",
+      "category_slug": "writing-notes",
+      "generated_at": "2026-11-28T10:16:36.352Z"
+    },
+    {
+      "name": "iA Writer",
+      "slug": "ia-writer",
+      "url": "https://ia.net/writer/pricing",
+      "price": "$49.99",
+      "currency": "USD",
+      "price_value": 49.99,
+      "license_url": "https://ia.net/writer/pricing",
+      "category": "Writing & Notes",
+      "category_slug": "writing-notes",
+      "generated_at": "2026-11-28T10:16:36.352Z"
+    },
+    {
+      "name": "Typora",
+      "slug": "typora",
+      "url": "https://typora.io/",
+      "price": "$14.99",
+      "currency": "USD",
+      "price_value": 14.99,
+      "license_url": "https://support.typora.io/activation",
+      "category": "Writing & Notes",
+      "category_slug": "writing-notes",
+      "generated_at": "2026-11-28T10:16:36.352Z"
+    }
+  ]
+}

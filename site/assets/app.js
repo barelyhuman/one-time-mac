@@ -1,10 +1,12 @@
 (function () {
-  /** @type {{ products: object[], categories: string[], description: string }} */
+  /** @type {{ products: object[], categories: {name:string,slug:string}[], description: string }} */
   let catalog = { products: [], categories: [], description: "" };
   let query = "";
   let categoryFilter = "All";
+  let categorySlugFilter = "";
   let sortKey = "name";
   let sortDir = "asc";
+  let urlSyncReady = false;
 
   const els = {
     description: document.getElementById("site-description"),
@@ -28,6 +30,63 @@
 
   function externalLink(url, label) {
     return `<a href="${escapeHtml(url)}" rel="noopener noreferrer">${escapeHtml(label)}</a>`;
+  }
+
+  function categoryNames() {
+    return catalog.categories.map((c) =>
+      typeof c === "string" ? c : c.name
+    );
+  }
+
+  function slugForCategoryName(name) {
+    const found = catalog.categories.find(
+      (c) => (typeof c === "string" ? c : c.name) === name
+    );
+    if (found && typeof found !== "string") return found.slug;
+    return "";
+  }
+
+  function nameForCategorySlug(slug) {
+    const found = catalog.categories.find(
+      (c) => typeof c !== "string" && c.slug === slug
+    );
+    return found ? found.name : null;
+  }
+
+  function readUrlState() {
+    const params = new URLSearchParams(window.location.search);
+    query = params.get("q") || "";
+    const catSlug = params.get("category") || "";
+    categorySlugFilter = catSlug;
+    if (catSlug) {
+      const name = nameForCategorySlug(catSlug);
+      categoryFilter = name || "__invalid__";
+    } else {
+      categoryFilter = "All";
+    }
+    els.search.value = query;
+  }
+
+  function syncUrl() {
+    if (!urlSyncReady) return;
+    const params = new URLSearchParams();
+    const q = query.trim();
+    if (q) params.set("q", q);
+    const slug =
+      categoryFilter !== "All" ? slugForCategoryName(categoryFilter) : "";
+    if (slug) params.set("category", slug);
+    const search = params.toString();
+    const url =
+      window.location.pathname +
+      (search ? `?${search}` : "") +
+      window.location.hash;
+    const current =
+      window.location.pathname +
+      window.location.search +
+      window.location.hash;
+    if (url !== current) {
+      window.history.replaceState(null, "", url);
+    }
   }
 
   function searchBlob(p) {
@@ -151,6 +210,16 @@
     });
   }
 
+  function updateChipStates() {
+    els.chips.querySelectorAll(".chip").forEach((chip) => {
+      const isAll = chip.dataset.category === "All";
+      const active =
+        chip.dataset.category === categoryFilter ||
+        (isAll && categoryFilter === "All");
+      chip.setAttribute("aria-checked", active ? "true" : "false");
+    });
+  }
+
   function render() {
     const rows = filteredProducts();
     const total = catalog.products.length;
@@ -170,33 +239,35 @@
       renderCards(rows);
     }
     updateSortIndicators();
+    updateChipStates();
+    syncUrl();
   }
 
   function buildChips() {
-    const cats = ["All", ...catalog.categories];
+    const cats = ["All", ...categoryNames()];
     els.chips.innerHTML = cats
-      .map(
-        (c) =>
-          `<button type="button" class="chip" role="radio" data-category="${escapeHtml(c)}" aria-checked="${c === "All" ? "true" : "false"}">${escapeHtml(c)}</button>`
-      )
+      .map((c) => {
+        const slug = c === "All" ? "" : slugForCategoryName(c);
+        return `<button type="button" class="chip" role="radio" data-category="${escapeHtml(c)}" data-category-slug="${escapeHtml(slug)}" aria-checked="${c === categoryFilter ? "true" : "false"}">${escapeHtml(c)}</button>`;
+      })
       .join("");
 
     els.chips.addEventListener("click", (e) => {
       const btn = e.target.closest(".chip");
       if (!btn) return;
       categoryFilter = btn.dataset.category;
-      els.chips.querySelectorAll(".chip").forEach((chip) => {
-        chip.setAttribute(
-          "aria-checked",
-          chip.dataset.category === categoryFilter ? "true" : "false"
-        );
-      });
+      categorySlugFilter = btn.dataset.categorySlug || "";
       render();
     });
   }
 
   els.search.addEventListener("input", () => {
     query = els.search.value;
+    render();
+  });
+
+  window.addEventListener("popstate", () => {
+    readUrlState();
     render();
   });
 
@@ -224,6 +295,8 @@
         els.description.textContent = data.description;
       }
       buildChips();
+      readUrlState();
+      urlSyncReady = true;
       render();
     })
     .catch((err) => {
