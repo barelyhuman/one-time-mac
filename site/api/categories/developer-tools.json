@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-28T10:19:17.936Z",
+  "generated_at": "2026-11-28T11:23:05.062Z",
   "name": "Developer Tools",
   "slug": "developer-tools",
   "count": 9,
@@ -14,7 +14,10 @@
       "license_url": "https://www.barebones.com/store/license_agreements.html",
       "category": "Developer Tools",
       "category_slug": "developer-tools",
-      "generated_at": "2026-11-28T10:19:17.936Z"
+      "tags": [
+        "ai"
+      ],
+      "generated_at": "2026-11-28T11:23:05.062Z"
     },
     {
       "name": "Charles Proxy",
@@ -26,7 +29,8 @@
       "license_url": "https://www.charlesproxy.com/buy/eula/",
       "category": "Developer Tools",
       "category_slug": "developer-tools",
-      "generated_at": "2026-11-28T10:19:17.936Z"
+      "tags": [],
+      "generated_at": "2026-11-28T11:23:05.062Z"
     },
     {
       "name": "Fork",
@@ -38,7 +42,8 @@
       "license_url": "https://fork.dev/license",
       "category": "Developer Tools",
       "category_slug": "developer-tools",
-      "generated_at": "2026-11-28T10:19:17.936Z"
+      "tags": [],
+      "generated_at": "2026-11-28T11:23:05.062Z"
     },
     {
       "name": "Nova",
@@ -50,7 +55,8 @@
       "license_url": "https://help.nova.app/faqs/purchasing/",
       "category": "Developer Tools",
       "category_slug": "developer-tools",
-      "generated_at": "2026-11-28T10:19:17.936Z"
+      "tags": [],
+      "generated_at": "2026-11-28T11:23:05.062Z"
     },
     {
       "name": "Paw",
@@ -62,7 +68,8 @@
       "license_url": "https://paw.cloud/terms",
       "category": "Developer Tools",
       "category_slug": "developer-tools",
-      "generated_at": "2026-11-28T10:19:17.936Z"
+      "tags": [],
+      "generated_at": "2026-11-28T11:23:05.062Z"
     },
     {
       "name": "Proxyman",
@@ -74,7 +81,10 @@
       "license_url": "https://proxyman.com/eula",
       "category": "Developer Tools",
       "category_slug": "developer-tools",
-      "generated_at": "2026-11-28T10:19:17.936Z"
+      "tags": [
+        "ai"
+      ],
+      "generated_at": "2026-11-28T11:23:05.062Z"
     },
     {
       "name": "Sublime Merge",
@@ -86,7 +96,8 @@
       "license_url": "https://www.sublimehq.com/eula",
       "category": "Developer Tools",
       "category_slug": "developer-tools",
-      "generated_at": "2026-11-28T10:19:17.936Z"
+      "tags": [],
+      "generated_at": "2026-11-28T11:23:05.062Z"
     },
     {
       "name": "Sublime Text",
@@ -98,7 +109,8 @@
       "license_url": "https://www.sublimehq.com/eula",
       "category": "Developer Tools",
       "category_slug": "developer-tools",
-      "generated_at": "2026-11-28T10:19:17.936Z"
+      "tags": [],
+      "generated_at": "2026-11-28T11:23:05.062Z"
     },
     {
       "name": "TablePlus",
@@ -110,7 +122,10 @@
       "license_url": "https://tableplus.com/blog/2018/01/license-agreement.html",
       "category": "Developer Tools",
       "category_slug": "developer-tools",
-      "generated_at": "2026-11-28T10:19:17.936Z"
+      "tags": [
+        "ai"
+      ],
+      "generated_at": "2026-11-28T11:23:05.062Z"
     }
   ]
 }

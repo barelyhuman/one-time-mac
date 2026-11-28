@@ -1,0 +1,174 @@
+{
+  "generated_at": "2026-11-28T11:23:05.062Z",
+  "tag": "ai",
+  "label": "AI",
+  "count": 11,
+  "url": "https://barelyhuman.github.io/one-time-mac/api/tags/ai.json",
+  "products": [
+    {
+      "name": "BBEdit",
+      "slug": "bbedit",
+      "url": "https://www.barebones.com/store/index.html",
+      "price": "$59.99",
+      "currency": "USD",
+      "price_value": 59.99,
+      "license_url": "https://www.barebones.com/store/license_agreements.html",
+      "category": "Developer Tools",
+      "category_slug": "developer-tools",
+      "tags": [
+        "ai"
+      ],
+      "generated_at": "2026-11-28T11:23:05.062Z"
+    },
+    {
+      "name": "Proxyman",
+      "slug": "proxyman",
+      "url": "https://proxyman.com/pricing",
+      "price": "$89",
+      "currency": "USD",
+      "price_value": 89,
+      "license_url": "https://proxyman.com/eula",
+      "category": "Developer Tools",
+      "category_slug": "developer-tools",
+      "tags": [
+        "ai"
+      ],
+      "generated_at": "2026-11-28T11:23:05.062Z"
+    },
+    {
+      "name": "TablePlus",
+      "slug": "tableplus",
+      "url": "https://tableplus.com/pricing",
+      "price": "$99",
+      "currency": "USD",
+      "price_value": 99,
+      "license_url": "https://tableplus.com/blog/2018/01/license-agreement.html",
+      "category": "Developer Tools",
+      "category_slug": "developer-tools",
+      "tags": [
+        "ai"
+      ],
+      "generated_at": "2026-11-28T11:23:05.062Z"
+    },
+    {
+      "name": "ClipsPal",
+      "slug": "clipspal",
+      "url": "https://www.clipspal.com",
+      "price": "$69",
+      "currency": "USD",
+      "price_value": 69,
+      "license_url": "https://www.clipspal.com/tos",
+      "category": "Productivity & Automation",
+      "category_slug": "productivity-automation",
+      "tags": [
+        "ai"
+      ],
+      "generated_at": "2026-11-28T11:23:05.062Z"
+    },
+    {
+      "name": "Wow Keywords",
+      "slug": "wow-keywords",
+      "url": "https://wowkeywords.com",
+      "price": "$99",
+      "currency": "USD",
+      "price_value": 99,
+      "license_url": "https://wowkeywords.com/tos",
+      "category": "Productivity & Automation",
+      "category_slug": "productivity-automation",
+      "tags": [
+        "ai"
+      ],
+      "generated_at": "2026-11-28T11:23:05.062Z"
+    },
+    {
+      "name": "DEVONthink",
+      "slug": "devonthink",
+      "url": "https://www.devontechnologies.com/apps/devonthink",
+      "price": "$74",
+      "currency": "USD",
+      "price_value": 74,
+      "license_url": "https://www.devontechnologies.com/legal",
+      "category": "Writing & Notes",
+      "category_slug": "writing-notes",
+      "tags": [
+        "ai"
+      ],
+      "generated_at": "2026-11-28T11:23:05.062Z"
+    },
+    {
+      "name": "Typora",
+      "slug": "typora",
+      "url": "https://typora.io/",
+      "price": "$14.99",
+      "currency": "USD",
+      "price_value": 14.99,
+      "license_url": "https://support.typora.io/activation",
+      "category": "Writing & Notes",
+      "category_slug": "writing-notes",
+      "tags": [
+        "ai"
+      ],
+      "generated_at": "2026-11-28T11:23:05.062Z"
+    },
+    {
+      "name": "CleanShot X",
+      "slug": "cleanshot-x",
+      "url": "https://cleanshot.com/pricing",
+      "price": "$35",
+      "currency": "USD",
+      "price_value": 35,
+      "license_url": "https://cleanshot.com/eula",
+      "category": "Screenshots, Media & Design",
+      "category_slug": "screenshots-media-design",
+      "tags": [
+        "ai"
+      ],
+      "generated_at": "2026-11-28T11:23:05.062Z"
+    },
+    {
+      "name": "Doppelgone",
+      "slug": "doppelgone",
+      "url": "https://doppelgone.app",
+      "price": "$9.99",
+      "currency": "USD",
+      "price_value": 9.99,
+      "license_url": "https://doppelgone.app/terms",
+      "category": "Screenshots, Media & Design",
+      "category_slug": "screenshots-media-design",
+      "tags": [
+        "ai"
+      ],
+      "generated_at": "2026-11-28T11:23:05.062Z"
+    },
+    {
+      "name": "MacWhisper",
+      "slug": "macwhisper",
+      "url": "https://www.macwhisper.com/",
+      "price": "64€",
+      "currency": "EUR",
+      "price_value": 64,
+      "license_url": "https://www.macwhisper.com/",
+      "category": "Screenshots, Media & Design",
+      "category_slug": "screenshots-media-design",
+      "tags": [
+        "ai"
+      ],
+      "generated_at": "2026-11-28T11:23:05.062Z"
+    },
+    {
+      "name": "Pixelmator Pro",
+      "slug": "pixelmator-pro",
+      "url": "https://apps.apple.com/us/app/pixelmator-pro/id1289583905",
+      "price": null,
+      "currency": null,
+      "price_value": null,
+      "license_url": "https://apps.apple.com/us/app/pixelmator-pro/id1289583905",
+      "category": "Screenshots, Media & Design",
+      "category_slug": "screenshots-media-design",
+      "tags": [
+        "ai"
+      ],
+      "generated_at": "2026-11-28T11:23:05.062Z"
+    }
+  ]
+}

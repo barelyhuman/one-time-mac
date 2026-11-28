@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-28T10:19:17.936Z",
+  "generated_at": "2026-11-28T11:23:05.062Z",
   "name": "Window & Menu Bar Utilities",
   "slug": "window-menu-bar-utilities",
   "count": 4,
@@ -14,7 +14,8 @@
       "license_url": "https://alt-tab.app/terms",
       "category": "Window & Menu Bar Utilities",
       "category_slug": "window-menu-bar-utilities",
-      "generated_at": "2026-11-28T10:19:17.936Z"
+      "tags": [],
+      "generated_at": "2026-11-28T11:23:05.062Z"
     },
     {
       "name": "BetterTouchTool",
@@ -26,7 +27,8 @@
       "license_url": "https://folivora.ai/",
       "category": "Window & Menu Bar Utilities",
       "category_slug": "window-menu-bar-utilities",
-      "generated_at": "2026-11-28T10:19:17.936Z"
+      "tags": [],
+      "generated_at": "2026-11-28T11:23:05.062Z"
     },
     {
       "name": "Lunar",
@@ -38,7 +40,8 @@
       "license_url": "https://lunar.fyi/eula",
       "category": "Window & Menu Bar Utilities",
       "category_slug": "window-menu-bar-utilities",
-      "generated_at": "2026-11-28T10:19:17.936Z"
+      "tags": [],
+      "generated_at": "2026-11-28T11:23:05.062Z"
     },
     {
       "name": "Moom",
@@ -50,7 +53,8 @@
       "license_url": "https://manytricks.com/moom/",
       "category": "Window & Menu Bar Utilities",
       "category_slug": "window-menu-bar-utilities",
-      "generated_at": "2026-11-28T10:19:17.936Z"
+      "tags": [],
+      "generated_at": "2026-11-28T11:23:05.062Z"
     }
   ]
 }

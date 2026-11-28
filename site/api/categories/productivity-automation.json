@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-28T10:19:17.936Z",
+  "generated_at": "2026-11-28T11:23:05.062Z",
   "name": "Productivity & Automation",
   "slug": "productivity-automation",
   "count": 8,
@@ -14,7 +14,8 @@
       "license_url": "https://www.alfredapp.com/help/powerpack/license-types/",
       "category": "Productivity & Automation",
       "category_slug": "productivity-automation",
-      "generated_at": "2026-11-28T10:19:17.936Z"
+      "tags": [],
+      "generated_at": "2026-11-28T11:23:05.062Z"
     },
     {
       "name": "ClipsPal",
@@ -26,7 +27,10 @@
       "license_url": "https://www.clipspal.com/tos",
       "category": "Productivity & Automation",
       "category_slug": "productivity-automation",
-      "generated_at": "2026-11-28T10:19:17.936Z"
+      "tags": [
+        "ai"
+      ],
+      "generated_at": "2026-11-28T11:23:05.062Z"
     },
     {
       "name": "Hazel",
@@ -38,7 +42,8 @@
       "license_url": "https://store.noodlesoft.com/store/",
       "category": "Productivity & Automation",
       "category_slug": "productivity-automation",
-      "generated_at": "2026-11-28T10:19:17.936Z"
+      "tags": [],
+      "generated_at": "2026-11-28T11:23:05.062Z"
     },
     {
       "name": "Keyboard Maestro",
@@ -50,7 +55,8 @@
       "license_url": "https://www.keyboardmaestro.com/main/",
       "category": "Productivity & Automation",
       "category_slug": "productivity-automation",
-      "generated_at": "2026-11-28T10:19:17.936Z"
+      "tags": [],
+      "generated_at": "2026-11-28T11:23:05.062Z"
     },
     {
       "name": "Soulver",
@@ -62,7 +68,8 @@
       "license_url": "https://soulver.app/",
       "category": "Productivity & Automation",
       "category_slug": "productivity-automation",
-      "generated_at": "2026-11-28T10:19:17.936Z"
+      "tags": [],
+      "generated_at": "2026-11-28T11:23:05.062Z"
     },
     {
       "name": "TaskPaper",
@@ -74,7 +81,8 @@
       "license_url": "https://support.hogbaysoftware.com/t/how-does-my-license-work/2665?u=jessegrosjean",
       "category": "Productivity & Automation",
       "category_slug": "productivity-automation",
-      "generated_at": "2026-11-28T10:19:17.936Z"
+      "tags": [],
+      "generated_at": "2026-11-28T11:23:05.062Z"
     },
     {
       "name": "Things 3",
@@ -86,7 +94,8 @@
       "license_url": "https://apps.apple.com/us/app/things-3/id904280696",
       "category": "Productivity & Automation",
       "category_slug": "productivity-automation",
-      "generated_at": "2026-11-28T10:19:17.936Z"
+      "tags": [],
+      "generated_at": "2026-11-28T11:23:05.062Z"
     },
     {
       "name": "Wow Keywords",
@@ -98,7 +107,10 @@
       "license_url": "https://wowkeywords.com/tos",
       "category": "Productivity & Automation",
       "category_slug": "productivity-automation",
-      "generated_at": "2026-11-28T10:19:17.936Z"
+      "tags": [
+        "ai"
+      ],
+      "generated_at": "2026-11-28T11:23:05.062Z"
     }
   ]
 }

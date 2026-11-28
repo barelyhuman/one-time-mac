@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-28T10:19:17.936Z",
+  "generated_at": "2026-11-28T11:23:05.062Z",
   "name": "Network & Security",
   "slug": "network-security",
   "count": 2,
@@ -14,7 +14,8 @@
       "license_url": "https://www.obdev.at/terms-and-conditions.html",
       "category": "Network & Security",
       "category_slug": "network-security",
-      "generated_at": "2026-11-28T10:19:17.936Z"
+      "tags": [],
+      "generated_at": "2026-11-28T11:23:05.062Z"
     },
     {
       "name": "Wipr 2",
@@ -26,7 +27,8 @@
       "license_url": null,
       "category": "Network & Security",
       "category_slug": "network-security",
-      "generated_at": "2026-11-28T10:19:17.936Z"
+      "tags": [],
+      "generated_at": "2026-11-28T11:23:05.062Z"
     }
   ]
 }

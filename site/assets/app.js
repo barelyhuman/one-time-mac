@@ -4,6 +4,7 @@
   let query = "";
   let categoryFilter = "All";
   let categorySlugFilter = "";
+  let tagFilter = "";
   let sortKey = "name";
   let sortDir = "asc";
   let urlSyncReady = false;
@@ -18,6 +19,7 @@
     empty: document.getElementById("empty-state"),
     sortButtons: document.querySelectorAll(".sort-btn"),
     sortHeaders: document.querySelectorAll("th[data-sort-key]"),
+    tagAi: document.getElementById("tag-ai"),
   };
 
   function escapeHtml(s) {
@@ -64,6 +66,11 @@
     } else {
       categoryFilter = "All";
     }
+    const tag = (params.get("tag") || "").toLowerCase();
+    tagFilter = tag;
+    if (els.tagAi) {
+      els.tagAi.setAttribute("aria-pressed", tag === "ai" ? "true" : "false");
+    }
     els.search.value = query;
   }
 
@@ -75,6 +82,7 @@
     const slug =
       categoryFilter !== "All" ? slugForCategoryName(categoryFilter) : "";
     if (slug) params.set("category", slug);
+    if (tagFilter) params.set("tag", tagFilter);
     const search = params.toString();
     const url =
       window.location.pathname +
@@ -95,8 +103,22 @@
       p.category,
       p.price || "",
       p.licenseLabel || "",
+      ...(p.tags || []),
     ];
     return parts.join(" ").toLowerCase();
+  }
+
+  function renderNameCell(p) {
+    const badges =
+      (p.tags || []).length > 0
+        ? (p.tags || [])
+            .map(
+              (t) =>
+                `<span class="tag-badge">${escapeHtml(t.toUpperCase())}</span>`
+            )
+            .join("")
+        : "";
+    return `${externalLink(p.productUrl, p.name)}${badges}`;
   }
 
   function comparePrice(a, b) {
@@ -140,6 +162,9 @@
         if (categoryFilter !== "All" && p.category !== categoryFilter) {
           return false;
         }
+        if (tagFilter && !(p.tags || []).includes(tagFilter)) {
+          return false;
+        }
         if (!q) return true;
         return searchBlob(p).includes(q);
       })
@@ -161,7 +186,7 @@
     els.tbody.innerHTML = rows
       .map(
         (p) => `<tr>
-          <td>${externalLink(p.productUrl, p.name)}</td>
+          <td>${renderNameCell(p)}</td>
           <td>${escapeHtml(p.category)}</td>
           <td>${renderPrice(p)}</td>
           <td>${renderLicense(p)}</td>
@@ -176,7 +201,7 @@
         (p) => `<li class="product-card">
           <dl>
             <dt>Name</dt>
-            <dd class="card-name">${externalLink(p.productUrl, p.name)}</dd>
+            <dd class="card-name">${renderNameCell(p)}</dd>
             <dt>Category</dt>
             <dd>${escapeHtml(p.category)}</dd>
             <dt>Price</dt>
@@ -265,6 +290,15 @@
     query = els.search.value;
     render();
   });
+
+  if (els.tagAi) {
+    els.tagAi.addEventListener("click", () => {
+      const on = els.tagAi.getAttribute("aria-pressed") === "true";
+      tagFilter = on ? "" : "ai";
+      els.tagAi.setAttribute("aria-pressed", on ? "false" : "true");
+      render();
+    });
+  }
 
   window.addEventListener("popstate", () => {
     readUrlState();
