@@ -1,0 +1,502 @@
+{
+  "description": "A community sourced set of products for Mac that have a one time lifetime license",
+  "categories": [
+    "Developer Tools",
+    "Productivity & Automation",
+    "Writing & Notes",
+    "Window & Menu Bar Utilities",
+    "Files & Storage",
+    "Screenshots, Media & Design",
+    "Network & Security"
+  ],
+  "products": [
+    {
+      "name": "BBEdit",
+      "productUrl": "https://www.barebones.com/store/index.html",
+      "category": "Developer Tools",
+      "price": "$59.99",
+      "priceSort": {
+        "currency": "$",
+        "value": 59.99,
+        "missing": false,
+        "raw": "$59.99"
+      },
+      "licenseUrl": "https://www.barebones.com/store/license_agreements.html",
+      "licenseLabel": "License"
+    },
+    {
+      "name": "Charles Proxy",
+      "productUrl": "https://www.charlesproxy.com/buy/",
+      "category": "Developer Tools",
+      "price": "$50",
+      "priceSort": {
+        "currency": "$",
+        "value": 50,
+        "missing": false,
+        "raw": "$50"
+      },
+      "licenseUrl": "https://www.charlesproxy.com/buy/eula/",
+      "licenseLabel": "License"
+    },
+    {
+      "name": "Fork",
+      "productUrl": "https://fork.dev/",
+      "category": "Developer Tools",
+      "price": "$59.99",
+      "priceSort": {
+        "currency": "$",
+        "value": 59.99,
+        "missing": false,
+        "raw": "$59.99"
+      },
+      "licenseUrl": "https://fork.dev/license",
+      "licenseLabel": "License"
+    },
+    {
+      "name": "Nova",
+      "productUrl": "https://nova.app/buy/",
+      "category": "Developer Tools",
+      "price": "$99",
+      "priceSort": {
+        "currency": "$",
+        "value": 99,
+        "missing": false,
+        "raw": "$99"
+      },
+      "licenseUrl": "https://help.nova.app/faqs/purchasing/",
+      "licenseLabel": "License"
+    },
+    {
+      "name": "Paw",
+      "productUrl": "https://paw.cloud/purchase",
+      "category": "Developer Tools",
+      "price": "$50",
+      "priceSort": {
+        "currency": "$",
+        "value": 50,
+        "missing": false,
+        "raw": "$50"
+      },
+      "licenseUrl": "https://paw.cloud/terms",
+      "licenseLabel": "License"
+    },
+    {
+      "name": "Proxyman",
+      "productUrl": "https://proxyman.com/pricing",
+      "category": "Developer Tools",
+      "price": "$89",
+      "priceSort": {
+        "currency": "$",
+        "value": 89,
+        "missing": false,
+        "raw": "$89"
+      },
+      "licenseUrl": "https://proxyman.com/eula",
+      "licenseLabel": "License"
+    },
+    {
+      "name": "Sublime Merge",
+      "productUrl": "https://www.sublimehq.com/store/merge",
+      "category": "Developer Tools",
+      "price": "$99",
+      "priceSort": {
+        "currency": "$",
+        "value": 99,
+        "missing": false,
+        "raw": "$99"
+      },
+      "licenseUrl": "https://www.sublimehq.com/eula",
+      "licenseLabel": "License"
+    },
+    {
+      "name": "Sublime Text",
+      "productUrl": "https://www.sublimehq.com/store/text",
+      "category": "Developer Tools",
+      "price": "$99",
+      "priceSort": {
+        "currency": "$",
+        "value": 99,
+        "missing": false,
+        "raw": "$99"
+      },
+      "licenseUrl": "https://www.sublimehq.com/eula",
+      "licenseLabel": "License"
+    },
+    {
+      "name": "TablePlus",
+      "productUrl": "https://tableplus.com/pricing",
+      "category": "Developer Tools",
+      "price": "$99",
+      "priceSort": {
+        "currency": "$",
+        "value": 99,
+        "missing": false,
+        "raw": "$99"
+      },
+      "licenseUrl": "https://tableplus.com/blog/2018/01/license-agreement.html",
+      "licenseLabel": "License"
+    },
+    {
+      "name": "Alfred",
+      "productUrl": "https://www.alfredapp.com/powerpack/",
+      "category": "Productivity & Automation",
+      "price": "£40",
+      "priceSort": {
+        "currency": "£",
+        "value": 40,
+        "missing": false,
+        "raw": "£40"
+      },
+      "licenseUrl": "https://www.alfredapp.com/help/powerpack/license-types/",
+      "licenseLabel": "License"
+    },
+    {
+      "name": "ClipsPal",
+      "productUrl": "https://www.clipspal.com",
+      "category": "Productivity & Automation",
+      "price": "$69",
+      "priceSort": {
+        "currency": "$",
+        "value": 69,
+        "missing": false,
+        "raw": "$69"
+      },
+      "licenseUrl": "https://www.clipspal.com/tos",
+      "licenseLabel": "License"
+    },
+    {
+      "name": "Hazel",
+      "productUrl": "https://store.noodlesoft.com/store/",
+      "category": "Productivity & Automation",
+      "price": "$42",
+      "priceSort": {
+        "currency": "$",
+        "value": 42,
+        "missing": false,
+        "raw": "$42"
+      },
+      "licenseUrl": "https://store.noodlesoft.com/store/",
+      "licenseLabel": "License"
+    },
+    {
+      "name": "Keyboard Maestro",
+      "productUrl": "https://www.keyboardmaestro.com/main/",
+      "category": "Productivity & Automation",
+      "price": "$36",
+      "priceSort": {
+        "currency": "$",
+        "value": 36,
+        "missing": false,
+        "raw": "$36"
+      },
+      "licenseUrl": "https://www.keyboardmaestro.com/main/",
+      "licenseLabel": "License"
+    },
+    {
+      "name": "Soulver",
+      "productUrl": "https://soulver.app/",
+      "category": "Productivity & Automation",
+      "price": "$59",
+      "priceSort": {
+        "currency": "$",
+        "value": 59,
+        "missing": false,
+        "raw": "$59"
+      },
+      "licenseUrl": "https://soulver.app/",
+      "licenseLabel": "License"
+    },
+    {
+      "name": "TaskPaper",
+      "productUrl": "https://www.taskpaper.com",
+      "category": "Productivity & Automation",
+      "price": "$24",
+      "priceSort": {
+        "currency": "$",
+        "value": 24,
+        "missing": false,
+        "raw": "$24"
+      },
+      "licenseUrl": "https://support.hogbaysoftware.com/t/how-does-my-license-work/2665?u=jessegrosjean",
+      "licenseLabel": "License"
+    },
+    {
+      "name": "Things 3",
+      "productUrl": "https://apps.apple.com/us/app/things-3/id904280696",
+      "category": "Productivity & Automation",
+      "price": null,
+      "priceSort": {
+        "currency": "",
+        "value": null,
+        "missing": true
+      },
+      "licenseUrl": "https://apps.apple.com/us/app/things-3/id904280696",
+      "licenseLabel": "License"
+    },
+    {
+      "name": "Wow Keywords",
+      "productUrl": "https://wowkeywords.com",
+      "category": "Productivity & Automation",
+      "price": "$99",
+      "priceSort": {
+        "currency": "$",
+        "value": 99,
+        "missing": false,
+        "raw": "$99"
+      },
+      "licenseUrl": "https://wowkeywords.com/tos",
+      "licenseLabel": "License"
+    },
+    {
+      "name": "DEVONthink",
+      "productUrl": "https://www.devontechnologies.com/apps/devonthink",
+      "category": "Writing & Notes",
+      "price": "$74",
+      "priceSort": {
+        "currency": "$",
+        "value": 74,
+        "missing": false,
+        "raw": "$74"
+      },
+      "licenseUrl": "https://www.devontechnologies.com/legal",
+      "licenseLabel": "License"
+    },
+    {
+      "name": "iA Writer",
+      "productUrl": "https://ia.net/writer/pricing",
+      "category": "Writing & Notes",
+      "price": "$49.99",
+      "priceSort": {
+        "currency": "$",
+        "value": 49.99,
+        "missing": false,
+        "raw": "$49.99"
+      },
+      "licenseUrl": "https://ia.net/writer/pricing",
+      "licenseLabel": "License"
+    },
+    {
+      "name": "Typora",
+      "productUrl": "https://typora.io/",
+      "category": "Writing & Notes",
+      "price": "$14.99",
+      "priceSort": {
+        "currency": "$",
+        "value": 14.99,
+        "missing": false,
+        "raw": "$14.99"
+      },
+      "licenseUrl": "https://support.typora.io/activation",
+      "licenseLabel": "License and Information"
+    },
+    {
+      "name": "AltTab",
+      "productUrl": "https://alt-tab.app/pricing",
+      "category": "Window & Menu Bar Utilities",
+      "price": "$24.99",
+      "priceSort": {
+        "currency": "$",
+        "value": 24.99,
+        "missing": false,
+        "raw": "$24.99"
+      },
+      "licenseUrl": "https://alt-tab.app/terms",
+      "licenseLabel": "License"
+    },
+    {
+      "name": "BetterTouchTool",
+      "productUrl": "https://folivora.ai/",
+      "category": "Window & Menu Bar Utilities",
+      "price": "$25",
+      "priceSort": {
+        "currency": "$",
+        "value": 25,
+        "missing": false,
+        "raw": "$25"
+      },
+      "licenseUrl": "https://folivora.ai/",
+      "licenseLabel": "License"
+    },
+    {
+      "name": "Lunar",
+      "productUrl": "https://lunar.fyi/",
+      "category": "Window & Menu Bar Utilities",
+      "price": "$23",
+      "priceSort": {
+        "currency": "$",
+        "value": 23,
+        "missing": false,
+        "raw": "$23"
+      },
+      "licenseUrl": "https://lunar.fyi/eula",
+      "licenseLabel": "License"
+    },
+    {
+      "name": "Moom",
+      "productUrl": "https://manytricks.com/moom/",
+      "category": "Window & Menu Bar Utilities",
+      "price": "$15",
+      "priceSort": {
+        "currency": "$",
+        "value": 15,
+        "missing": false,
+        "raw": "$15"
+      },
+      "licenseUrl": "https://manytricks.com/moom/",
+      "licenseLabel": "License"
+    },
+    {
+      "name": "DaisyDisk",
+      "productUrl": "https://daisydiskapp.com/",
+      "category": "Files & Storage",
+      "price": "$9.99",
+      "priceSort": {
+        "currency": "$",
+        "value": 9.99,
+        "missing": false,
+        "raw": "$9.99"
+      },
+      "licenseUrl": "https://daisydiskapp.com/eula",
+      "licenseLabel": "License"
+    },
+    {
+      "name": "Default Folder X",
+      "productUrl": "https://www.stclairsoft.com/DefaultFolderX/",
+      "category": "Files & Storage",
+      "price": "$39.95",
+      "priceSort": {
+        "currency": "$",
+        "value": 39.95,
+        "missing": false,
+        "raw": "$39.95"
+      },
+      "licenseUrl": "https://www.stclairsoft.com/DefaultFolderX/faq.html",
+      "licenseLabel": "License"
+    },
+    {
+      "name": "ForkLift",
+      "productUrl": "https://binarynights.com/store",
+      "category": "Files & Storage",
+      "price": "$19.95",
+      "priceSort": {
+        "currency": "$",
+        "value": 19.95,
+        "missing": false,
+        "raw": "$19.95"
+      },
+      "licenseUrl": "https://binarynights.com/store",
+      "licenseLabel": "License"
+    },
+    {
+      "name": "Transmit",
+      "productUrl": "https://panic.com/transmit/",
+      "category": "Files & Storage",
+      "price": "$45",
+      "priceSort": {
+        "currency": "$",
+        "value": 45,
+        "missing": false,
+        "raw": "$45"
+      },
+      "licenseUrl": "https://panic.com/transmit/",
+      "licenseLabel": "License"
+    },
+    {
+      "name": "CleanShot X",
+      "productUrl": "https://cleanshot.com/pricing",
+      "category": "Screenshots, Media & Design",
+      "price": "$35",
+      "priceSort": {
+        "currency": "$",
+        "value": 35,
+        "missing": false,
+        "raw": "$35"
+      },
+      "licenseUrl": "https://cleanshot.com/eula",
+      "licenseLabel": "License"
+    },
+    {
+      "name": "Doppelgone",
+      "productUrl": "https://doppelgone.app",
+      "category": "Screenshots, Media & Design",
+      "price": "$9.99",
+      "priceSort": {
+        "currency": "$",
+        "value": 9.99,
+        "missing": false,
+        "raw": "$9.99"
+      },
+      "licenseUrl": "https://doppelgone.app/terms",
+      "licenseLabel": "License"
+    },
+    {
+      "name": "MacWhisper",
+      "productUrl": "https://www.macwhisper.com/",
+      "category": "Screenshots, Media & Design",
+      "price": "64€",
+      "priceSort": {
+        "currency": "€",
+        "value": 64,
+        "missing": false,
+        "raw": "64€"
+      },
+      "licenseUrl": "https://www.macwhisper.com/",
+      "licenseLabel": "License"
+    },
+    {
+      "name": "Pixelmator Pro",
+      "productUrl": "https://apps.apple.com/us/app/pixelmator-pro/id1289583905",
+      "category": "Screenshots, Media & Design",
+      "price": null,
+      "priceSort": {
+        "currency": "",
+        "value": null,
+        "missing": true
+      },
+      "licenseUrl": "https://apps.apple.com/us/app/pixelmator-pro/id1289583905",
+      "licenseLabel": "License"
+    },
+    {
+      "name": "Scribbble",
+      "productUrl": "https://www.scribbble.app/pricing",
+      "category": "Screenshots, Media & Design",
+      "price": "$12",
+      "priceSort": {
+        "currency": "$",
+        "value": 12,
+        "missing": false,
+        "raw": "$12"
+      },
+      "licenseUrl": "https://www.scribbble.app/pricing",
+      "licenseLabel": "License"
+    },
+    {
+      "name": "Little Snitch",
+      "productUrl": "https://www.obdev.at/products/littlesnitch/order.html",
+      "category": "Network & Security",
+      "price": "59€",
+      "priceSort": {
+        "currency": "€",
+        "value": 59,
+        "missing": false,
+        "raw": "59€"
+      },
+      "licenseUrl": "https://www.obdev.at/terms-and-conditions.html",
+      "licenseLabel": "License"
+    },
+    {
+      "name": "Wipr 2",
+      "productUrl": "https://apps.apple.com/us/app/wipr-2/id1662217862",
+      "category": "Network & Security",
+      "price": null,
+      "priceSort": {
+        "currency": "",
+        "value": null,
+        "missing": true
+      },
+      "licenseUrl": null,
+      "licenseLabel": null
+    }
+  ],
+  "generatedAt": "2026-11-28T10:12:33.404Z"
+}

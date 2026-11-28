@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Community-sourced Mac apps with one-time lifetime licenses."
+    />
+    <title>One-Time Mac — Lifetime license apps</title>
+    <link rel="stylesheet" href="assets/styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header">
+      <div class="wrap">
+        <h1 class="site-title">One-Time Mac</h1>
+        <p class="site-tagline" id="site-description">
+          Community-sourced Mac apps with one-time lifetime licenses.
+        </p>
+        <nav class="site-nav" aria-label="Related links">
+          <a href="https://github.com/barelyhuman/one-time-mac" rel="noopener noreferrer">View on GitHub</a>
+          <a href="https://github.com/barelyhuman/one-time-mac#how-to-add" rel="noopener noreferrer">How to Add</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main" class="wrap">
+      <section class="controls" aria-label="Filter products">
+        <label class="search-label" for="search">Search</label>
+        <input
+          id="search"
+          class="search-input"
+          type="search"
+          name="q"
+          autocomplete="off"
+          spellcheck="false"
+          placeholder="Name, category, price, license…"
+        />
+
+        <div class="category-row">
+          <span class="category-label" id="category-label">Category</span>
+          <div
+            class="category-chips"
+            id="category-chips"
+            role="radiogroup"
+            aria-labelledby="category-label"
+          ></div>
+        </div>
+
+        <p class="result-count" id="result-count" aria-live="polite"></p>
+      </section>
+
+      <section aria-label="Product list">
+        <table class="product-table" id="product-table">
+          <caption class="visually-hidden">
+            Mac apps with one-time licenses
+          </caption>
+          <thead>
+            <tr>
+              <th scope="col" data-sort-key="name" aria-sort="ascending">
+                <button type="button" class="sort-btn" data-sort="name">
+                  Name <span class="sort-indicator" aria-hidden="true"></span>
+                </button>
+              </th>
+              <th scope="col" data-sort-key="category" aria-sort="none">
+                <button type="button" class="sort-btn" data-sort="category">
+                  Category <span class="sort-indicator" aria-hidden="true"></span>
+                </button>
+              </th>
+              <th scope="col" data-sort-key="price" aria-sort="none">
+                <button type="button" class="sort-btn" data-sort="price">
+                  Price <span class="sort-indicator" aria-hidden="true"></span>
+                </button>
+              </th>
+              <th scope="col">License</th>
+            </tr>
+          </thead>
+          <tbody id="product-tbody"></tbody>
+        </table>
+        <p class="empty-state" id="empty-state" hidden>No apps match your search or filters.</p>
+        <ul class="product-cards" id="product-cards" aria-label="Product list (compact view)"></ul>
+      </section>
+    </main>
+
+    <footer class="site-footer wrap">
+      <p>
+        Data from
+        <a href="https://github.com/barelyhuman/one-time-mac/blob/main/README.md" rel="noopener noreferrer">README.md</a>.
+        Contributions welcome.
+      </p>
+    </footer>
+
+    <script src="assets/app.js" defer></script>
+  </body>
+</html>
