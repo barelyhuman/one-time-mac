@@ -24,3 +24,4 @@ license
 - [Typora](https://typora.io/) - 15$ - [License and Information](https://support.typora.io/activation)
 - [Fork](https://fork.dev/) - $59.99 - [License](https://fork.dev/license)
 - [Wow Keywords](https://wowkeywords.com) - $99 - [License](https://wowkeywords.com/#pricing)
+- [ClipsPal](https://www.clipspal.com) - $59 - [License](https://www.clipspal.com/tos)
