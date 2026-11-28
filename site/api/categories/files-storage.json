@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-28T10:19:17.936Z",
+  "generated_at": "2026-11-28T11:25:07.993Z",
   "name": "Files & Storage",
   "slug": "files-storage",
   "count": 4,
@@ -14,7 +14,8 @@
       "license_url": "https://daisydiskapp.com/eula",
       "category": "Files & Storage",
       "category_slug": "files-storage",
-      "generated_at": "2026-11-28T10:19:17.936Z"
+      "tags": [],
+      "generated_at": "2026-11-28T11:25:07.993Z"
     },
     {
       "name": "Default Folder X",
@@ -26,7 +27,8 @@
       "license_url": "https://www.stclairsoft.com/DefaultFolderX/faq.html",
       "category": "Files & Storage",
       "category_slug": "files-storage",
-      "generated_at": "2026-11-28T10:19:17.936Z"
+      "tags": [],
+      "generated_at": "2026-11-28T11:25:07.993Z"
     },
     {
       "name": "ForkLift",
@@ -38,7 +40,8 @@
       "license_url": "https://binarynights.com/store",
       "category": "Files & Storage",
       "category_slug": "files-storage",
-      "generated_at": "2026-11-28T10:19:17.936Z"
+      "tags": [],
+      "generated_at": "2026-11-28T11:25:07.993Z"
     },
     {
       "name": "Transmit",
@@ -50,7 +53,8 @@
       "license_url": "https://panic.com/transmit/",
       "category": "Files & Storage",
       "category_slug": "files-storage",
-      "generated_at": "2026-11-28T10:19:17.936Z"
+      "tags": [],
+      "generated_at": "2026-11-28T11:25:07.993Z"
     }
   ]
 }

@@ -20,8 +20,22 @@ const SITE_BASE = "https://barelyhuman.github.io/one-time-mac";
 const PRODUCT_LINE =
   /^- \[([^\]]+)\]\(([^)]+)\)(?:\s*-\s*(.+))?$/;
 const TOC_LINE = /^- \[([^\]]+)\]\(#[^)]+\)\s*$/;
+const TAG_MARKER = /`([A-Za-z][A-Za-z0-9-]*)`/g;
 
 const CURRENCY_ISO = { $: "USD", "£": "GBP", "€": "EUR" };
+
+function extractTags(rest) {
+  if (!rest) return { tags: [], rest: rest || "" };
+  const tags = [];
+  for (const match of rest.matchAll(TAG_MARKER)) {
+    tags.push(match[1].toLowerCase());
+  }
+  const stripped = rest
+    .replace(TAG_MARKER, " ")
+    .replace(/\s+/g, " ")
+    .trim();
+  return { tags: [...new Set(tags)], rest: stripped };
+}
 
 function slugify(text) {
   return text
@@ -118,7 +132,8 @@ function parseReadme(content) {
       process.exit(1);
     }
 
-    const [, name, productUrl, rest] = m;
+    const [, name, productUrl, restRaw] = m;
+    const { tags, rest } = extractTags(restRaw);
     const parsed = parseLicenseAndPrice(rest);
     if (parsed === null) {
       console.error(
@@ -138,6 +153,7 @@ function parseReadme(content) {
       priceSort,
       licenseUrl: parsed.licenseUrl,
       licenseLabel: parsed.licenseLabel,
+      tags,
     });
   }
 
@@ -164,6 +180,7 @@ function apiProduct(p, generatedAt) {
     license_url: p.licenseUrl,
     category: p.category,
     category_slug: p.categorySlug,
+    tags: p.tags || [],
     generated_at: generatedAt,
   };
 }
@@ -191,9 +208,10 @@ Community-maintained catalog of macOS apps sold with a one-time lifetime license
 - Categories index: ${SITE_BASE}/api/categories.json
 - Per category: ${SITE_BASE}/api/categories/<slug>.json (slugs match category names, e.g. developer-tools)
 - Plain markdown export: ${SITE_BASE}/llms-full.txt
-- Human UI with search: ${SITE_BASE}/?q=<term>&category=<slug>
+- Human UI with search: ${SITE_BASE}/?q=<term>&category=<slug>&tag=<tag>
+- Apps with built-in AI: ${SITE_BASE}/api/tags/ai.json or ${SITE_BASE}/?tag=ai
 
-Filter JSON client-side by name, category, price, or license fields. For the HTML UI, share or fetch URLs with query parameters above.
+Filter JSON client-side by name, category, price, license, or \`tags\` (e.g. \`ai\`). For the HTML UI, share or fetch URLs with query parameters above.
 
 ## Data files
 
@@ -225,8 +243,12 @@ function buildLlmsFull(data) {
       const license = p.licenseUrl
         ? `[License](${p.licenseUrl})`
         : "—";
+      const tagNote =
+        p.tags && p.tags.length > 0
+          ? ` — tags: ${p.tags.join(", ")}`
+          : "";
       lines.push(
-        `- [${p.name}](${p.productUrl}) — ${price} — ${license}`
+        `- [${p.name}](${p.productUrl}) — ${price} — ${license}${tagNote}`
       );
     }
     lines.push("");
@@ -249,6 +271,7 @@ function buildSitemap(data) {
     { loc: `${SITE_BASE}/llms-full.txt`, priority: "0.8" },
     { loc: `${SITE_BASE}/api/products.json`, priority: "0.9" },
     { loc: `${SITE_BASE}/api/categories.json`, priority: "0.7" },
+    { loc: `${SITE_BASE}/api/tags/ai.json`, priority: "0.7" },
   ];
   for (const cat of data.categories) {
     urls.push({
@@ -292,6 +315,9 @@ function buildJsonLd(data) {
         operatingSystem: "macOS",
       },
     };
+    if (p.tags?.length) {
+      entry.item.keywords = p.tags.map((t) => t.toUpperCase()).join(", ");
+    }
     const iso = currencyIsoFromProduct(p);
     const value = p.priceSort?.value;
     if (iso && value != null && !p.priceSort?.missing) {
@@ -336,7 +362,7 @@ function ensureSiteDirs() {
   if (!fs.existsSync(SITE_DIR)) {
     fs.mkdirSync(SITE_DIR, { recursive: true });
   }
-  for (const sub of ["data", "assets", "api", "api/categories"]) {
+  for (const sub of ["data", "assets", "api", "api/categories", "api/tags"]) {
     fs.mkdirSync(path.join(SITE_DIR, sub), { recursive: true });
   }
 }
@@ -373,6 +399,24 @@ function writeAgentArtifacts(data) {
       slug: cat.slug,
       count: inCat.length,
       products: inCat,
+    });
+  }
+
+  const tagDir = path.join(apiDir, "tags");
+  const tagSlugs = [
+    ...new Set(data.products.flatMap((p) => p.tags || [])),
+  ].sort();
+  for (const tagSlug of tagSlugs) {
+    const tagged = data.products
+      .filter((p) => (p.tags || []).includes(tagSlug))
+      .map((p) => apiProduct(p, data.generatedAt));
+    writeJson(path.join(tagDir, `${tagSlug}.json`), {
+      generated_at: data.generatedAt,
+      tag: tagSlug,
+      label: tagSlug.toUpperCase(),
+      count: tagged.length,
+      url: `${SITE_BASE}/api/tags/${tagSlug}.json`,
+      products: tagged,
     });
   }
 

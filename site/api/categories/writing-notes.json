@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-28T10:19:17.936Z",
+  "generated_at": "2026-11-28T11:25:07.993Z",
   "name": "Writing & Notes",
   "slug": "writing-notes",
   "count": 3,
@@ -14,7 +14,10 @@
       "license_url": "https://www.devontechnologies.com/legal",
       "category": "Writing & Notes",
       "category_slug": "writing-notes",
-      "generated_at": "2026-11-28T10:19:17.936Z"
+      "tags": [
+        "ai"
+      ],
+      "generated_at": "2026-11-28T11:25:07.993Z"
     },
     {
       "name": "iA Writer",
@@ -26,7 +29,8 @@
       "license_url": "https://ia.net/writer/pricing",
       "category": "Writing & Notes",
       "category_slug": "writing-notes",
-      "generated_at": "2026-11-28T10:19:17.936Z"
+      "tags": [],
+      "generated_at": "2026-11-28T11:25:07.993Z"
     },
     {
       "name": "Typora",
@@ -38,7 +42,10 @@
       "license_url": "https://support.typora.io/activation",
       "category": "Writing & Notes",
       "category_slug": "writing-notes",
-      "generated_at": "2026-11-28T10:19:17.936Z"
+      "tags": [
+        "ai"
+      ],
+      "generated_at": "2026-11-28T11:25:07.993Z"
     }
   ]
 }

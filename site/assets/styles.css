@@ -155,7 +155,8 @@ main {
   border-color: var(--accent);
 }
 
-.category-row {
+.category-row,
+.tag-row {
   margin-top: var(--space-5);
 }
 
@@ -186,7 +187,8 @@ main {
   border-color: var(--accent);
 }
 
-.chip[aria-checked="true"] {
+.chip[aria-checked="true"],
+.chip.tag-toggle[aria-pressed="true"] {
   background: var(--chip-active-bg);
   border-color: var(--chip-active-bg);
   color: var(--chip-active-text);
@@ -334,6 +336,20 @@ main {
 
 .muted {
   color: var(--text-muted);
+}
+
+.tag-badge {
+  display: inline-block;
+  margin-left: var(--space-2);
+  padding: var(--space-1) var(--space-2);
+  font-size: 0.6875rem;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  border: 1px solid var(--border);
+  border-radius: 2px;
+  vertical-align: middle;
 }
 
 @media (max-width: 720px) {

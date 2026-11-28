@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-28T10:19:17.936Z",
+  "generated_at": "2026-11-28T11:25:07.993Z",
   "count": 35,
   "products": [
     {
@@ -12,7 +12,10 @@
       "license_url": "https://www.barebones.com/store/license_agreements.html",
       "category": "Developer Tools",
       "category_slug": "developer-tools",
-      "generated_at": "2026-11-28T10:19:17.936Z"
+      "tags": [
+        "ai"
+      ],
+      "generated_at": "2026-11-28T11:25:07.993Z"
     },
     {
       "name": "Charles Proxy",
@@ -24,7 +27,8 @@
       "license_url": "https://www.charlesproxy.com/buy/eula/",
       "category": "Developer Tools",
       "category_slug": "developer-tools",
-      "generated_at": "2026-11-28T10:19:17.936Z"
+      "tags": [],
+      "generated_at": "2026-11-28T11:25:07.993Z"
     },
     {
       "name": "Fork",
@@ -36,7 +40,8 @@
       "license_url": "https://fork.dev/license",
       "category": "Developer Tools",
       "category_slug": "developer-tools",
-      "generated_at": "2026-11-28T10:19:17.936Z"
+      "tags": [],
+      "generated_at": "2026-11-28T11:25:07.993Z"
     },
     {
       "name": "Nova",
@@ -48,7 +53,8 @@
       "license_url": "https://help.nova.app/faqs/purchasing/",
       "category": "Developer Tools",
       "category_slug": "developer-tools",
-      "generated_at": "2026-11-28T10:19:17.936Z"
+      "tags": [],
+      "generated_at": "2026-11-28T11:25:07.993Z"
     },
     {
       "name": "Paw",
@@ -60,7 +66,8 @@
       "license_url": "https://paw.cloud/terms",
       "category": "Developer Tools",
       "category_slug": "developer-tools",
-      "generated_at": "2026-11-28T10:19:17.936Z"
+      "tags": [],
+      "generated_at": "2026-11-28T11:25:07.993Z"
     },
     {
       "name": "Proxyman",
@@ -72,7 +79,10 @@
       "license_url": "https://proxyman.com/eula",
       "category": "Developer Tools",
       "category_slug": "developer-tools",
-      "generated_at": "2026-11-28T10:19:17.936Z"
+      "tags": [
+        "ai"
+      ],
+      "generated_at": "2026-11-28T11:25:07.993Z"
     },
     {
       "name": "Sublime Merge",
@@ -84,7 +94,8 @@
       "license_url": "https://www.sublimehq.com/eula",
       "category": "Developer Tools",
       "category_slug": "developer-tools",
-      "generated_at": "2026-11-28T10:19:17.936Z"
+      "tags": [],
+      "generated_at": "2026-11-28T11:25:07.993Z"
     },
     {
       "name": "Sublime Text",
@@ -96,7 +107,8 @@
       "license_url": "https://www.sublimehq.com/eula",
       "category": "Developer Tools",
       "category_slug": "developer-tools",
-      "generated_at": "2026-11-28T10:19:17.936Z"
+      "tags": [],
+      "generated_at": "2026-11-28T11:25:07.993Z"
     },
     {
       "name": "TablePlus",
@@ -108,7 +120,10 @@
       "license_url": "https://tableplus.com/blog/2018/01/license-agreement.html",
       "category": "Developer Tools",
       "category_slug": "developer-tools",
-      "generated_at": "2026-11-28T10:19:17.936Z"
+      "tags": [
+        "ai"
+      ],
+      "generated_at": "2026-11-28T11:25:07.993Z"
     },
     {
       "name": "Alfred",
@@ -120,7 +135,8 @@
       "license_url": "https://www.alfredapp.com/help/powerpack/license-types/",
       "category": "Productivity & Automation",
       "category_slug": "productivity-automation",
-      "generated_at": "2026-11-28T10:19:17.936Z"
+      "tags": [],
+      "generated_at": "2026-11-28T11:25:07.993Z"
     },
     {
       "name": "ClipsPal",
@@ -132,7 +148,10 @@
       "license_url": "https://www.clipspal.com/tos",
       "category": "Productivity & Automation",
       "category_slug": "productivity-automation",
-      "generated_at": "2026-11-28T10:19:17.936Z"
+      "tags": [
+        "ai"
+      ],
+      "generated_at": "2026-11-28T11:25:07.993Z"
     },
     {
       "name": "Hazel",
@@ -144,7 +163,8 @@
       "license_url": "https://store.noodlesoft.com/store/",
       "category": "Productivity & Automation",
       "category_slug": "productivity-automation",
-      "generated_at": "2026-11-28T10:19:17.936Z"
+      "tags": [],
+      "generated_at": "2026-11-28T11:25:07.993Z"
     },
     {
       "name": "Keyboard Maestro",
@@ -156,7 +176,8 @@
       "license_url": "https://www.keyboardmaestro.com/main/",
       "category": "Productivity & Automation",
       "category_slug": "productivity-automation",
-      "generated_at": "2026-11-28T10:19:17.936Z"
+      "tags": [],
+      "generated_at": "2026-11-28T11:25:07.993Z"
     },
     {
       "name": "Soulver",
@@ -168,7 +189,8 @@
       "license_url": "https://soulver.app/",
       "category": "Productivity & Automation",
       "category_slug": "productivity-automation",
-      "generated_at": "2026-11-28T10:19:17.936Z"
+      "tags": [],
+      "generated_at": "2026-11-28T11:25:07.993Z"
     },
     {
       "name": "TaskPaper",
@@ -180,7 +202,8 @@
       "license_url": "https://support.hogbaysoftware.com/t/how-does-my-license-work/2665?u=jessegrosjean",
       "category": "Productivity & Automation",
       "category_slug": "productivity-automation",
-      "generated_at": "2026-11-28T10:19:17.936Z"
+      "tags": [],
+      "generated_at": "2026-11-28T11:25:07.993Z"
     },
     {
       "name": "Things 3",
@@ -192,7 +215,8 @@
       "license_url": "https://apps.apple.com/us/app/things-3/id904280696",
       "category": "Productivity & Automation",
       "category_slug": "productivity-automation",
-      "generated_at": "2026-11-28T10:19:17.936Z"
+      "tags": [],
+      "generated_at": "2026-11-28T11:25:07.993Z"
     },
     {
       "name": "Wow Keywords",
@@ -204,7 +228,10 @@
       "license_url": "https://wowkeywords.com/tos",
       "category": "Productivity & Automation",
       "category_slug": "productivity-automation",
-      "generated_at": "2026-11-28T10:19:17.936Z"
+      "tags": [
+        "ai"
+      ],
+      "generated_at": "2026-11-28T11:25:07.993Z"
     },
     {
       "name": "DEVONthink",
@@ -216,7 +243,10 @@
       "license_url": "https://www.devontechnologies.com/legal",
       "category": "Writing & Notes",
       "category_slug": "writing-notes",
-      "generated_at": "2026-11-28T10:19:17.936Z"
+      "tags": [
+        "ai"
+      ],
+      "generated_at": "2026-11-28T11:25:07.993Z"
     },
     {
       "name": "iA Writer",
@@ -228,7 +258,8 @@
       "license_url": "https://ia.net/writer/pricing",
       "category": "Writing & Notes",
       "category_slug": "writing-notes",
-      "generated_at": "2026-11-28T10:19:17.936Z"
+      "tags": [],
+      "generated_at": "2026-11-28T11:25:07.993Z"
     },
     {
       "name": "Typora",
@@ -240,7 +271,10 @@
       "license_url": "https://support.typora.io/activation",
       "category": "Writing & Notes",
       "category_slug": "writing-notes",
-      "generated_at": "2026-11-28T10:19:17.936Z"
+      "tags": [
+        "ai"
+      ],
+      "generated_at": "2026-11-28T11:25:07.993Z"
     },
     {
       "name": "AltTab",
@@ -252,7 +286,8 @@
       "license_url": "https://alt-tab.app/terms",
       "category": "Window & Menu Bar Utilities",
       "category_slug": "window-menu-bar-utilities",
-      "generated_at": "2026-11-28T10:19:17.936Z"
+      "tags": [],
+      "generated_at": "2026-11-28T11:25:07.993Z"
     },
     {
       "name": "BetterTouchTool",
@@ -264,7 +299,8 @@
       "license_url": "https://folivora.ai/",
       "category": "Window & Menu Bar Utilities",
       "category_slug": "window-menu-bar-utilities",
-      "generated_at": "2026-11-28T10:19:17.936Z"
+      "tags": [],
+      "generated_at": "2026-11-28T11:25:07.993Z"
     },
     {
       "name": "Lunar",
@@ -276,7 +312,8 @@
       "license_url": "https://lunar.fyi/eula",
       "category": "Window & Menu Bar Utilities",
       "category_slug": "window-menu-bar-utilities",
-      "generated_at": "2026-11-28T10:19:17.936Z"
+      "tags": [],
+      "generated_at": "2026-11-28T11:25:07.993Z"
     },
     {
       "name": "Moom",
@@ -288,7 +325,8 @@
       "license_url": "https://manytricks.com/moom/",
       "category": "Window & Menu Bar Utilities",
       "category_slug": "window-menu-bar-utilities",
-      "generated_at": "2026-11-28T10:19:17.936Z"
+      "tags": [],
+      "generated_at": "2026-11-28T11:25:07.993Z"
     },
     {
       "name": "DaisyDisk",
@@ -300,7 +338,8 @@
       "license_url": "https://daisydiskapp.com/eula",
       "category": "Files & Storage",
       "category_slug": "files-storage",
-      "generated_at": "2026-11-28T10:19:17.936Z"
+      "tags": [],
+      "generated_at": "2026-11-28T11:25:07.993Z"
     },
     {
       "name": "Default Folder X",
@@ -312,7 +351,8 @@
       "license_url": "https://www.stclairsoft.com/DefaultFolderX/faq.html",
       "category": "Files & Storage",
       "category_slug": "files-storage",
-      "generated_at": "2026-11-28T10:19:17.936Z"
+      "tags": [],
+      "generated_at": "2026-11-28T11:25:07.993Z"
     },
     {
       "name": "ForkLift",
@@ -324,7 +364,8 @@
       "license_url": "https://binarynights.com/store",
       "category": "Files & Storage",
       "category_slug": "files-storage",
-      "generated_at": "2026-11-28T10:19:17.936Z"
+      "tags": [],
+      "generated_at": "2026-11-28T11:25:07.993Z"
     },
     {
       "name": "Transmit",
@@ -336,7 +377,8 @@
       "license_url": "https://panic.com/transmit/",
       "category": "Files & Storage",
       "category_slug": "files-storage",
-      "generated_at": "2026-11-28T10:19:17.936Z"
+      "tags": [],
+      "generated_at": "2026-11-28T11:25:07.993Z"
     },
     {
       "name": "CleanShot X",
@@ -348,7 +390,10 @@
       "license_url": "https://cleanshot.com/eula",
       "category": "Screenshots, Media & Design",
       "category_slug": "screenshots-media-design",
-      "generated_at": "2026-11-28T10:19:17.936Z"
+      "tags": [
+        "ai"
+      ],
+      "generated_at": "2026-11-28T11:25:07.993Z"
     },
     {
       "name": "Doppelgone",
@@ -360,7 +405,10 @@
       "license_url": "https://doppelgone.app/terms",
       "category": "Screenshots, Media & Design",
       "category_slug": "screenshots-media-design",
-      "generated_at": "2026-11-28T10:19:17.936Z"
+      "tags": [
+        "ai"
+      ],
+      "generated_at": "2026-11-28T11:25:07.993Z"
     },
     {
       "name": "MacWhisper",
@@ -372,7 +420,10 @@
       "license_url": "https://www.macwhisper.com/",
       "category": "Screenshots, Media & Design",
       "category_slug": "screenshots-media-design",
-      "generated_at": "2026-11-28T10:19:17.936Z"
+      "tags": [
+        "ai"
+      ],
+      "generated_at": "2026-11-28T11:25:07.993Z"
     },
     {
       "name": "Pixelmator Pro",
@@ -384,7 +435,10 @@
       "license_url": "https://apps.apple.com/us/app/pixelmator-pro/id1289583905",
       "category": "Screenshots, Media & Design",
       "category_slug": "screenshots-media-design",
-      "generated_at": "2026-11-28T10:19:17.936Z"
+      "tags": [
+        "ai"
+      ],
+      "generated_at": "2026-11-28T11:25:07.993Z"
     },
     {
       "name": "Scribbble",
@@ -396,7 +450,8 @@
       "license_url": "https://www.scribbble.app/pricing",
       "category": "Screenshots, Media & Design",
       "category_slug": "screenshots-media-design",
-      "generated_at": "2026-11-28T10:19:17.936Z"
+      "tags": [],
+      "generated_at": "2026-11-28T11:25:07.993Z"
     },
     {
       "name": "Little Snitch",
@@ -408,7 +463,8 @@
       "license_url": "https://www.obdev.at/terms-and-conditions.html",
       "category": "Network & Security",
       "category_slug": "network-security",
-      "generated_at": "2026-11-28T10:19:17.936Z"
+      "tags": [],
+      "generated_at": "2026-11-28T11:25:07.993Z"
     },
     {
       "name": "Wipr 2",
@@ -420,7 +476,8 @@
       "license_url": null,
       "category": "Network & Security",
       "category_slug": "network-security",
-      "generated_at": "2026-11-28T10:19:17.936Z"
+      "tags": [],
+      "generated_at": "2026-11-28T11:25:07.993Z"
     }
   ]
 }

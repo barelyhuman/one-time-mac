@@ -16,9 +16,10 @@ Community-maintained catalog of macOS apps sold with a one-time lifetime license
 - Categories index: https://barelyhuman.github.io/one-time-mac/api/categories.json
 - Per category: https://barelyhuman.github.io/one-time-mac/api/categories/<slug>.json (slugs match category names, e.g. developer-tools)
 - Plain markdown export: https://barelyhuman.github.io/one-time-mac/llms-full.txt
-- Human UI with search: https://barelyhuman.github.io/one-time-mac/?q=<term>&category=<slug>
+- Human UI with search: https://barelyhuman.github.io/one-time-mac/?q=<term>&category=<slug>&tag=<tag>
+- Apps with built-in AI: https://barelyhuman.github.io/one-time-mac/api/tags/ai.json or https://barelyhuman.github.io/one-time-mac/?tag=ai
 
-Filter JSON client-side by name, category, price, or license fields. For the HTML UI, share or fetch URLs with query parameters above.
+Filter JSON client-side by name, category, price, license, or `tags` (e.g. `ai`). For the HTML UI, share or fetch URLs with query parameters above.
 
 ## Data files
 

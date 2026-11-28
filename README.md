@@ -14,6 +14,13 @@ The site is rebuilt automatically on every push to `main` (from this README). No
 - Disclose in the PR if you are the developer of the product
 - Each line should include the Name, link to product, link to license terms,
   and Price of the product (Mac Store apps may omit Price)
+- Optional tags (not categories): append an `AI` tag at the end of the line when
+  the app has a genuine built-in AI/ML feature (transcription, generation,
+  on-device OCR, LLM assistant, etc.). Example:
+
+```md
+- [App](https://example.com) - $9.99 - [License](https://example.com/license) `AI`
+```
 
 ## Conditions
 
@@ -33,7 +40,9 @@ Machine-readable exports (rebuilt on every push to `main` from this README):
 - Per category: `https://barelyhuman.github.io/one-time-mac/api/categories/<slug>.json` (e.g. [developer-tools](https://barelyhuman.github.io/one-time-mac/api/categories/developer-tools.json))
 - [sitemap.xml](https://barelyhuman.github.io/one-time-mac/sitemap.xml) and [robots.txt](https://barelyhuman.github.io/one-time-mac/robots.txt)
 
-Human UI with shareable filters: `https://barelyhuman.github.io/one-time-mac/?q=<term>&category=<slug>` (example: [?q=alfred&category=productivity-automation](https://barelyhuman.github.io/one-time-mac/?q=alfred&category=productivity-automation)).
+Human UI with shareable filters: `https://barelyhuman.github.io/one-time-mac/?q=<term>&category=<slug>&tag=<tag>` (example: [?tag=ai](https://barelyhuman.github.io/one-time-mac/?tag=ai)).
+
+Tag index: [api/tags/ai.json](https://barelyhuman.github.io/one-time-mac/api/tags/ai.json) (apps whose README line includes the `AI` tag).
 
 ## Products
 
@@ -47,32 +56,32 @@ Human UI with shareable filters: `https://barelyhuman.github.io/one-time-mac/?q=
 
 ### Developer Tools
 
-- [BBEdit](https://www.barebones.com/store/index.html) - $59.99 - [License](https://www.barebones.com/store/license_agreements.html)
+- [BBEdit](https://www.barebones.com/store/index.html) - $59.99 - [License](https://www.barebones.com/store/license_agreements.html) `AI`
 - [Charles Proxy](https://www.charlesproxy.com/buy/) - $50 - [License](https://www.charlesproxy.com/buy/eula/)
 - [Fork](https://fork.dev/) - $59.99 - [License](https://fork.dev/license)
 - [Nova](https://nova.app/buy/) - $99 - [License](https://help.nova.app/faqs/purchasing/)
 - [Paw](https://paw.cloud/purchase) - $50 - [License](https://paw.cloud/terms)
-- [Proxyman](https://proxyman.com/pricing) - $89 - [License](https://proxyman.com/eula)
+- [Proxyman](https://proxyman.com/pricing) - $89 - [License](https://proxyman.com/eula) `AI`
 - [Sublime Merge](https://www.sublimehq.com/store/merge) - $99 - [License](https://www.sublimehq.com/eula)
 - [Sublime Text](https://www.sublimehq.com/store/text) - $99 - [License](https://www.sublimehq.com/eula)
-- [TablePlus](https://tableplus.com/pricing) - $99 - [License](https://tableplus.com/blog/2018/01/license-agreement.html)
+- [TablePlus](https://tableplus.com/pricing) - $99 - [License](https://tableplus.com/blog/2018/01/license-agreement.html) `AI`
 
 ### Productivity & Automation
 
 - [Alfred](https://www.alfredapp.com/powerpack/) - £40 - [License](https://www.alfredapp.com/help/powerpack/license-types/)
-- [ClipsPal](https://www.clipspal.com) - $69 - [License](https://www.clipspal.com/tos)
+- [ClipsPal](https://www.clipspal.com) - $69 - [License](https://www.clipspal.com/tos) `AI`
 - [Hazel](https://store.noodlesoft.com/store/) - $42 - [License](https://store.noodlesoft.com/store/)
 - [Keyboard Maestro](https://www.keyboardmaestro.com/main/) - $36 - [License](https://www.keyboardmaestro.com/main/)
 - [Soulver](https://soulver.app/) - $59 - [License](https://soulver.app/)
 - [TaskPaper](https://www.taskpaper.com) - $24 - [License](https://support.hogbaysoftware.com/t/how-does-my-license-work/2665?u=jessegrosjean)
 - [Things 3](https://apps.apple.com/us/app/things-3/id904280696) - [License](https://apps.apple.com/us/app/things-3/id904280696)
-- [Wow Keywords](https://wowkeywords.com) - $99 - [License](https://wowkeywords.com/tos)
+- [Wow Keywords](https://wowkeywords.com) - $99 - [License](https://wowkeywords.com/tos) `AI`
 
 ### Writing & Notes
 
-- [DEVONthink](https://www.devontechnologies.com/apps/devonthink) - $74 - [License](https://www.devontechnologies.com/legal)
+- [DEVONthink](https://www.devontechnologies.com/apps/devonthink) - $74 - [License](https://www.devontechnologies.com/legal) `AI`
 - [iA Writer](https://ia.net/writer/pricing) - $49.99 - [License](https://ia.net/writer/pricing)
-- [Typora](https://typora.io/) - $14.99 - [License and Information](https://support.typora.io/activation)
+- [Typora](https://typora.io/) - $14.99 - [License and Information](https://support.typora.io/activation) `AI`
 
 ### Window & Menu Bar Utilities
 
@@ -90,10 +99,10 @@ Human UI with shareable filters: `https://barelyhuman.github.io/one-time-mac/?q=
 
 ### Screenshots, Media & Design
 
-- [CleanShot X](https://cleanshot.com/pricing) - $35 - [License](https://cleanshot.com/eula)
-- [Doppelgone](https://doppelgone.app) - $9.99 - [License](https://doppelgone.app/terms)
-- [MacWhisper](https://www.macwhisper.com/) - 64€ - [License](https://www.macwhisper.com/)
-- [Pixelmator Pro](https://apps.apple.com/us/app/pixelmator-pro/id1289583905) - [License](https://apps.apple.com/us/app/pixelmator-pro/id1289583905)
+- [CleanShot X](https://cleanshot.com/pricing) - $35 - [License](https://cleanshot.com/eula) `AI`
+- [Doppelgone](https://doppelgone.app) - $9.99 - [License](https://doppelgone.app/terms) `AI`
+- [MacWhisper](https://www.macwhisper.com/) - 64€ - [License](https://www.macwhisper.com/) `AI`
+- [Pixelmator Pro](https://apps.apple.com/us/app/pixelmator-pro/id1289583905) - [License](https://apps.apple.com/us/app/pixelmator-pro/id1289583905) `AI`
 - [Scribbble](https://www.scribbble.app/pricing) - $12 - [License](https://www.scribbble.app/pricing)
 
 ### Network & Security

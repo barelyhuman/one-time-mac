@@ -45,7 +45,10 @@
         "raw": "$59.99"
       },
       "licenseUrl": "https://www.barebones.com/store/license_agreements.html",
-      "licenseLabel": "License"
+      "licenseLabel": "License",
+      "tags": [
+        "ai"
+      ]
     },
     {
       "name": "Charles Proxy",
@@ -61,7 +64,8 @@
         "raw": "$50"
       },
       "licenseUrl": "https://www.charlesproxy.com/buy/eula/",
-      "licenseLabel": "License"
+      "licenseLabel": "License",
+      "tags": []
     },
     {
       "name": "Fork",
@@ -77,7 +81,8 @@
         "raw": "$59.99"
       },
       "licenseUrl": "https://fork.dev/license",
-      "licenseLabel": "License"
+      "licenseLabel": "License",
+      "tags": []
     },
     {
       "name": "Nova",
@@ -93,7 +98,8 @@
         "raw": "$99"
       },
       "licenseUrl": "https://help.nova.app/faqs/purchasing/",
-      "licenseLabel": "License"
+      "licenseLabel": "License",
+      "tags": []
     },
     {
       "name": "Paw",
@@ -109,7 +115,8 @@
         "raw": "$50"
       },
       "licenseUrl": "https://paw.cloud/terms",
-      "licenseLabel": "License"
+      "licenseLabel": "License",
+      "tags": []
     },
     {
       "name": "Proxyman",
@@ -125,7 +132,10 @@
         "raw": "$89"
       },
       "licenseUrl": "https://proxyman.com/eula",
-      "licenseLabel": "License"
+      "licenseLabel": "License",
+      "tags": [
+        "ai"
+      ]
     },
     {
       "name": "Sublime Merge",
@@ -141,7 +151,8 @@
         "raw": "$99"
       },
       "licenseUrl": "https://www.sublimehq.com/eula",
-      "licenseLabel": "License"
+      "licenseLabel": "License",
+      "tags": []
     },
     {
       "name": "Sublime Text",
@@ -157,7 +168,8 @@
         "raw": "$99"
       },
       "licenseUrl": "https://www.sublimehq.com/eula",
-      "licenseLabel": "License"
+      "licenseLabel": "License",
+      "tags": []
     },
     {
       "name": "TablePlus",
@@ -173,7 +185,10 @@
         "raw": "$99"
       },
       "licenseUrl": "https://tableplus.com/blog/2018/01/license-agreement.html",
-      "licenseLabel": "License"
+      "licenseLabel": "License",
+      "tags": [
+        "ai"
+      ]
     },
     {
       "name": "Alfred",
@@ -189,7 +204,8 @@
         "raw": "£40"
       },
       "licenseUrl": "https://www.alfredapp.com/help/powerpack/license-types/",
-      "licenseLabel": "License"
+      "licenseLabel": "License",
+      "tags": []
     },
     {
       "name": "ClipsPal",
@@ -205,7 +221,10 @@
         "raw": "$69"
       },
       "licenseUrl": "https://www.clipspal.com/tos",
-      "licenseLabel": "License"
+      "licenseLabel": "License",
+      "tags": [
+        "ai"
+      ]
     },
     {
       "name": "Hazel",
@@ -221,7 +240,8 @@
         "raw": "$42"
       },
       "licenseUrl": "https://store.noodlesoft.com/store/",
-      "licenseLabel": "License"
+      "licenseLabel": "License",
+      "tags": []
     },
     {
       "name": "Keyboard Maestro",
@@ -237,7 +257,8 @@
         "raw": "$36"
       },
       "licenseUrl": "https://www.keyboardmaestro.com/main/",
-      "licenseLabel": "License"
+      "licenseLabel": "License",
+      "tags": []
     },
     {
       "name": "Soulver",
@@ -253,7 +274,8 @@
         "raw": "$59"
       },
       "licenseUrl": "https://soulver.app/",
-      "licenseLabel": "License"
+      "licenseLabel": "License",
+      "tags": []
     },
     {
       "name": "TaskPaper",
@@ -269,7 +291,8 @@
         "raw": "$24"
       },
       "licenseUrl": "https://support.hogbaysoftware.com/t/how-does-my-license-work/2665?u=jessegrosjean",
-      "licenseLabel": "License"
+      "licenseLabel": "License",
+      "tags": []
     },
     {
       "name": "Things 3",
@@ -284,7 +307,8 @@
         "missing": true
       },
       "licenseUrl": "https://apps.apple.com/us/app/things-3/id904280696",
-      "licenseLabel": "License"
+      "licenseLabel": "License",
+      "tags": []
     },
     {
       "name": "Wow Keywords",
@@ -300,7 +324,10 @@
         "raw": "$99"
       },
       "licenseUrl": "https://wowkeywords.com/tos",
-      "licenseLabel": "License"
+      "licenseLabel": "License",
+      "tags": [
+        "ai"
+      ]
     },
     {
       "name": "DEVONthink",
@@ -316,7 +343,10 @@
         "raw": "$74"
       },
       "licenseUrl": "https://www.devontechnologies.com/legal",
-      "licenseLabel": "License"
+      "licenseLabel": "License",
+      "tags": [
+        "ai"
+      ]
     },
     {
       "name": "iA Writer",
@@ -332,7 +362,8 @@
         "raw": "$49.99"
       },
       "licenseUrl": "https://ia.net/writer/pricing",
-      "licenseLabel": "License"
+      "licenseLabel": "License",
+      "tags": []
     },
     {
       "name": "Typora",
@@ -348,7 +379,10 @@
         "raw": "$14.99"
       },
       "licenseUrl": "https://support.typora.io/activation",
-      "licenseLabel": "License and Information"
+      "licenseLabel": "License and Information",
+      "tags": [
+        "ai"
+      ]
     },
     {
       "name": "AltTab",
@@ -364,7 +398,8 @@
         "raw": "$24.99"
       },
       "licenseUrl": "https://alt-tab.app/terms",
-      "licenseLabel": "License"
+      "licenseLabel": "License",
+      "tags": []
     },
     {
       "name": "BetterTouchTool",
@@ -380,7 +415,8 @@
         "raw": "$25"
       },
       "licenseUrl": "https://folivora.ai/",
-      "licenseLabel": "License"
+      "licenseLabel": "License",
+      "tags": []
     },
     {
       "name": "Lunar",
@@ -396,7 +432,8 @@
         "raw": "$23"
       },
       "licenseUrl": "https://lunar.fyi/eula",
-      "licenseLabel": "License"
+      "licenseLabel": "License",
+      "tags": []
     },
     {
       "name": "Moom",
@@ -412,7 +449,8 @@
         "raw": "$15"
       },
       "licenseUrl": "https://manytricks.com/moom/",
-      "licenseLabel": "License"
+      "licenseLabel": "License",
+      "tags": []
     },
     {
       "name": "DaisyDisk",
@@ -428,7 +466,8 @@
         "raw": "$9.99"
       },
       "licenseUrl": "https://daisydiskapp.com/eula",
-      "licenseLabel": "License"
+      "licenseLabel": "License",
+      "tags": []
     },
     {
       "name": "Default Folder X",
@@ -444,7 +483,8 @@
         "raw": "$39.95"
       },
       "licenseUrl": "https://www.stclairsoft.com/DefaultFolderX/faq.html",
-      "licenseLabel": "License"
+      "licenseLabel": "License",
+      "tags": []
     },
     {
       "name": "ForkLift",
@@ -460,7 +500,8 @@
         "raw": "$19.95"
       },
       "licenseUrl": "https://binarynights.com/store",
-      "licenseLabel": "License"
+      "licenseLabel": "License",
+      "tags": []
     },
     {
       "name": "Transmit",
@@ -476,7 +517,8 @@
         "raw": "$45"
       },
       "licenseUrl": "https://panic.com/transmit/",
-      "licenseLabel": "License"
+      "licenseLabel": "License",
+      "tags": []
     },
     {
       "name": "CleanShot X",
@@ -492,7 +534,10 @@
         "raw": "$35"
       },
       "licenseUrl": "https://cleanshot.com/eula",
-      "licenseLabel": "License"
+      "licenseLabel": "License",
+      "tags": [
+        "ai"
+      ]
     },
     {
       "name": "Doppelgone",
@@ -508,7 +553,10 @@
         "raw": "$9.99"
       },
       "licenseUrl": "https://doppelgone.app/terms",
-      "licenseLabel": "License"
+      "licenseLabel": "License",
+      "tags": [
+        "ai"
+      ]
     },
     {
       "name": "MacWhisper",
@@ -524,7 +572,10 @@
         "raw": "64€"
       },
       "licenseUrl": "https://www.macwhisper.com/",
-      "licenseLabel": "License"
+      "licenseLabel": "License",
+      "tags": [
+        "ai"
+      ]
     },
     {
       "name": "Pixelmator Pro",
@@ -539,7 +590,10 @@
         "missing": true
       },
       "licenseUrl": "https://apps.apple.com/us/app/pixelmator-pro/id1289583905",
-      "licenseLabel": "License"
+      "licenseLabel": "License",
+      "tags": [
+        "ai"
+      ]
     },
     {
       "name": "Scribbble",
@@ -555,7 +609,8 @@
         "raw": "$12"
       },
       "licenseUrl": "https://www.scribbble.app/pricing",
-      "licenseLabel": "License"
+      "licenseLabel": "License",
+      "tags": []
     },
     {
       "name": "Little Snitch",
@@ -571,7 +626,8 @@
         "raw": "59€"
       },
       "licenseUrl": "https://www.obdev.at/terms-and-conditions.html",
-      "licenseLabel": "License"
+      "licenseLabel": "License",
+      "tags": []
     },
     {
       "name": "Wipr 2",
@@ -586,8 +642,9 @@
         "missing": true
       },
       "licenseUrl": null,
-      "licenseLabel": null
+      "licenseLabel": null,
+      "tags": []
     }
   ],
-  "generatedAt": "2026-11-28T10:19:17.936Z"
+  "generatedAt": "2026-11-28T11:25:07.993Z"
 }
