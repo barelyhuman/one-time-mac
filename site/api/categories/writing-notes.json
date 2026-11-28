@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-28T11:23:05.062Z",
+  "generated_at": "2026-11-28T11:25:07.993Z",
   "name": "Writing & Notes",
   "slug": "writing-notes",
   "count": 3,
@@ -17,7 +17,7 @@
       "tags": [
         "ai"
       ],
-      "generated_at": "2026-11-28T11:23:05.062Z"
+      "generated_at": "2026-11-28T11:25:07.993Z"
     },
     {
       "name": "iA Writer",
@@ -30,7 +30,7 @@
       "category": "Writing & Notes",
       "category_slug": "writing-notes",
       "tags": [],
-      "generated_at": "2026-11-28T11:23:05.062Z"
+      "generated_at": "2026-11-28T11:25:07.993Z"
     },
     {
       "name": "Typora",
@@ -45,7 +45,7 @@
       "tags": [
         "ai"
       ],
-      "generated_at": "2026-11-28T11:23:05.062Z"
+      "generated_at": "2026-11-28T11:25:07.993Z"
     }
   ]
 }

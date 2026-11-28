@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-28T11:23:05.062Z",
+  "generated_at": "2026-11-28T11:25:07.993Z",
   "count": 35,
   "products": [
     {
@@ -15,7 +15,7 @@
       "tags": [
         "ai"
       ],
-      "generated_at": "2026-11-28T11:23:05.062Z"
+      "generated_at": "2026-11-28T11:25:07.993Z"
     },
     {
       "name": "Charles Proxy",
@@ -28,7 +28,7 @@
       "category": "Developer Tools",
       "category_slug": "developer-tools",
       "tags": [],
-      "generated_at": "2026-11-28T11:23:05.062Z"
+      "generated_at": "2026-11-28T11:25:07.993Z"
     },
     {
       "name": "Fork",
@@ -41,7 +41,7 @@
       "category": "Developer Tools",
       "category_slug": "developer-tools",
       "tags": [],
-      "generated_at": "2026-11-28T11:23:05.062Z"
+      "generated_at": "2026-11-28T11:25:07.993Z"
     },
     {
       "name": "Nova",
@@ -54,7 +54,7 @@
       "category": "Developer Tools",
       "category_slug": "developer-tools",
       "tags": [],
-      "generated_at": "2026-11-28T11:23:05.062Z"
+      "generated_at": "2026-11-28T11:25:07.993Z"
     },
     {
       "name": "Paw",
@@ -67,7 +67,7 @@
       "category": "Developer Tools",
       "category_slug": "developer-tools",
       "tags": [],
-      "generated_at": "2026-11-28T11:23:05.062Z"
+      "generated_at": "2026-11-28T11:25:07.993Z"
     },
     {
       "name": "Proxyman",
@@ -82,7 +82,7 @@
       "tags": [
         "ai"
       ],
-      "generated_at": "2026-11-28T11:23:05.062Z"
+      "generated_at": "2026-11-28T11:25:07.993Z"
     },
     {
       "name": "Sublime Merge",
@@ -95,7 +95,7 @@
       "category": "Developer Tools",
       "category_slug": "developer-tools",
       "tags": [],
-      "generated_at": "2026-11-28T11:23:05.062Z"
+      "generated_at": "2026-11-28T11:25:07.993Z"
     },
     {
       "name": "Sublime Text",
@@ -108,7 +108,7 @@
       "category": "Developer Tools",
       "category_slug": "developer-tools",
       "tags": [],
-      "generated_at": "2026-11-28T11:23:05.062Z"
+      "generated_at": "2026-11-28T11:25:07.993Z"
     },
     {
       "name": "TablePlus",
@@ -123,7 +123,7 @@
       "tags": [
         "ai"
       ],
-      "generated_at": "2026-11-28T11:23:05.062Z"
+      "generated_at": "2026-11-28T11:25:07.993Z"
     },
     {
       "name": "Alfred",
@@ -136,7 +136,7 @@
       "category": "Productivity & Automation",
       "category_slug": "productivity-automation",
       "tags": [],
-      "generated_at": "2026-11-28T11:23:05.062Z"
+      "generated_at": "2026-11-28T11:25:07.993Z"
     },
     {
       "name": "ClipsPal",
@@ -151,7 +151,7 @@
       "tags": [
         "ai"
       ],
-      "generated_at": "2026-11-28T11:23:05.062Z"
+      "generated_at": "2026-11-28T11:25:07.993Z"
     },
     {
       "name": "Hazel",
@@ -164,7 +164,7 @@
       "category": "Productivity & Automation",
       "category_slug": "productivity-automation",
       "tags": [],
-      "generated_at": "2026-11-28T11:23:05.062Z"
+      "generated_at": "2026-11-28T11:25:07.993Z"
     },
     {
       "name": "Keyboard Maestro",
@@ -177,7 +177,7 @@
       "category": "Productivity & Automation",
       "category_slug": "productivity-automation",
       "tags": [],
-      "generated_at": "2026-11-28T11:23:05.062Z"
+      "generated_at": "2026-11-28T11:25:07.993Z"
     },
     {
       "name": "Soulver",
@@ -190,7 +190,7 @@
       "category": "Productivity & Automation",
       "category_slug": "productivity-automation",
       "tags": [],
-      "generated_at": "2026-11-28T11:23:05.062Z"
+      "generated_at": "2026-11-28T11:25:07.993Z"
     },
     {
       "name": "TaskPaper",
@@ -203,7 +203,7 @@
       "category": "Productivity & Automation",
       "category_slug": "productivity-automation",
       "tags": [],
-      "generated_at": "2026-11-28T11:23:05.062Z"
+      "generated_at": "2026-11-28T11:25:07.993Z"
     },
     {
       "name": "Things 3",
@@ -216,7 +216,7 @@
       "category": "Productivity & Automation",
       "category_slug": "productivity-automation",
       "tags": [],
-      "generated_at": "2026-11-28T11:23:05.062Z"
+      "generated_at": "2026-11-28T11:25:07.993Z"
     },
     {
       "name": "Wow Keywords",
@@ -231,7 +231,7 @@
       "tags": [
         "ai"
       ],
-      "generated_at": "2026-11-28T11:23:05.062Z"
+      "generated_at": "2026-11-28T11:25:07.993Z"
     },
     {
       "name": "DEVONthink",
@@ -246,7 +246,7 @@
       "tags": [
         "ai"
       ],
-      "generated_at": "2026-11-28T11:23:05.062Z"
+      "generated_at": "2026-11-28T11:25:07.993Z"
     },
     {
       "name": "iA Writer",
@@ -259,7 +259,7 @@
       "category": "Writing & Notes",
       "category_slug": "writing-notes",
       "tags": [],
-      "generated_at": "2026-11-28T11:23:05.062Z"
+      "generated_at": "2026-11-28T11:25:07.993Z"
     },
     {
       "name": "Typora",
@@ -274,7 +274,7 @@
       "tags": [
         "ai"
       ],
-      "generated_at": "2026-11-28T11:23:05.062Z"
+      "generated_at": "2026-11-28T11:25:07.993Z"
     },
     {
       "name": "AltTab",
@@ -287,7 +287,7 @@
       "category": "Window & Menu Bar Utilities",
       "category_slug": "window-menu-bar-utilities",
       "tags": [],
-      "generated_at": "2026-11-28T11:23:05.062Z"
+      "generated_at": "2026-11-28T11:25:07.993Z"
     },
     {
       "name": "BetterTouchTool",
@@ -300,7 +300,7 @@
       "category": "Window & Menu Bar Utilities",
       "category_slug": "window-menu-bar-utilities",
       "tags": [],
-      "generated_at": "2026-11-28T11:23:05.062Z"
+      "generated_at": "2026-11-28T11:25:07.993Z"
     },
     {
       "name": "Lunar",
@@ -313,7 +313,7 @@
       "category": "Window & Menu Bar Utilities",
       "category_slug": "window-menu-bar-utilities",
       "tags": [],
-      "generated_at": "2026-11-28T11:23:05.062Z"
+      "generated_at": "2026-11-28T11:25:07.993Z"
     },
     {
       "name": "Moom",
@@ -326,7 +326,7 @@
       "category": "Window & Menu Bar Utilities",
       "category_slug": "window-menu-bar-utilities",
       "tags": [],
-      "generated_at": "2026-11-28T11:23:05.062Z"
+      "generated_at": "2026-11-28T11:25:07.993Z"
     },
     {
       "name": "DaisyDisk",
@@ -339,7 +339,7 @@
       "category": "Files & Storage",
       "category_slug": "files-storage",
       "tags": [],
-      "generated_at": "2026-11-28T11:23:05.062Z"
+      "generated_at": "2026-11-28T11:25:07.993Z"
     },
     {
       "name": "Default Folder X",
@@ -352,7 +352,7 @@
       "category": "Files & Storage",
       "category_slug": "files-storage",
       "tags": [],
-      "generated_at": "2026-11-28T11:23:05.062Z"
+      "generated_at": "2026-11-28T11:25:07.993Z"
     },
     {
       "name": "ForkLift",
@@ -365,7 +365,7 @@
       "category": "Files & Storage",
       "category_slug": "files-storage",
       "tags": [],
-      "generated_at": "2026-11-28T11:23:05.062Z"
+      "generated_at": "2026-11-28T11:25:07.993Z"
     },
     {
       "name": "Transmit",
@@ -378,7 +378,7 @@
       "category": "Files & Storage",
       "category_slug": "files-storage",
       "tags": [],
-      "generated_at": "2026-11-28T11:23:05.062Z"
+      "generated_at": "2026-11-28T11:25:07.993Z"
     },
     {
       "name": "CleanShot X",
@@ -393,7 +393,7 @@
       "tags": [
         "ai"
       ],
-      "generated_at": "2026-11-28T11:23:05.062Z"
+      "generated_at": "2026-11-28T11:25:07.993Z"
     },
     {
       "name": "Doppelgone",
@@ -408,7 +408,7 @@
       "tags": [
         "ai"
       ],
-      "generated_at": "2026-11-28T11:23:05.062Z"
+      "generated_at": "2026-11-28T11:25:07.993Z"
     },
     {
       "name": "MacWhisper",
@@ -423,7 +423,7 @@
       "tags": [
         "ai"
       ],
-      "generated_at": "2026-11-28T11:23:05.062Z"
+      "generated_at": "2026-11-28T11:25:07.993Z"
     },
     {
       "name": "Pixelmator Pro",
@@ -438,7 +438,7 @@
       "tags": [
         "ai"
       ],
-      "generated_at": "2026-11-28T11:23:05.062Z"
+      "generated_at": "2026-11-28T11:25:07.993Z"
     },
     {
       "name": "Scribbble",
@@ -451,7 +451,7 @@
       "category": "Screenshots, Media & Design",
       "category_slug": "screenshots-media-design",
       "tags": [],
-      "generated_at": "2026-11-28T11:23:05.062Z"
+      "generated_at": "2026-11-28T11:25:07.993Z"
     },
     {
       "name": "Little Snitch",
@@ -464,7 +464,7 @@
       "category": "Network & Security",
       "category_slug": "network-security",
       "tags": [],
-      "generated_at": "2026-11-28T11:23:05.062Z"
+      "generated_at": "2026-11-28T11:25:07.993Z"
     },
     {
       "name": "Wipr 2",
@@ -477,7 +477,7 @@
       "category": "Network & Security",
       "category_slug": "network-security",
       "tags": [],
-      "generated_at": "2026-11-28T11:23:05.062Z"
+      "generated_at": "2026-11-28T11:25:07.993Z"
     }
   ]
 }

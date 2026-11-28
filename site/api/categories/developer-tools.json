@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-28T11:23:05.062Z",
+  "generated_at": "2026-11-28T11:25:07.993Z",
   "name": "Developer Tools",
   "slug": "developer-tools",
   "count": 9,
@@ -17,7 +17,7 @@
       "tags": [
         "ai"
       ],
-      "generated_at": "2026-11-28T11:23:05.062Z"
+      "generated_at": "2026-11-28T11:25:07.993Z"
     },
     {
       "name": "Charles Proxy",
@@ -30,7 +30,7 @@
       "category": "Developer Tools",
       "category_slug": "developer-tools",
       "tags": [],
-      "generated_at": "2026-11-28T11:23:05.062Z"
+      "generated_at": "2026-11-28T11:25:07.993Z"
     },
     {
       "name": "Fork",
@@ -43,7 +43,7 @@
       "category": "Developer Tools",
       "category_slug": "developer-tools",
       "tags": [],
-      "generated_at": "2026-11-28T11:23:05.062Z"
+      "generated_at": "2026-11-28T11:25:07.993Z"
     },
     {
       "name": "Nova",
@@ -56,7 +56,7 @@
       "category": "Developer Tools",
       "category_slug": "developer-tools",
       "tags": [],
-      "generated_at": "2026-11-28T11:23:05.062Z"
+      "generated_at": "2026-11-28T11:25:07.993Z"
     },
     {
       "name": "Paw",
@@ -69,7 +69,7 @@
       "category": "Developer Tools",
       "category_slug": "developer-tools",
       "tags": [],
-      "generated_at": "2026-11-28T11:23:05.062Z"
+      "generated_at": "2026-11-28T11:25:07.993Z"
     },
     {
       "name": "Proxyman",
@@ -84,7 +84,7 @@
       "tags": [
         "ai"
       ],
-      "generated_at": "2026-11-28T11:23:05.062Z"
+      "generated_at": "2026-11-28T11:25:07.993Z"
     },
     {
       "name": "Sublime Merge",
@@ -97,7 +97,7 @@
       "category": "Developer Tools",
       "category_slug": "developer-tools",
       "tags": [],
-      "generated_at": "2026-11-28T11:23:05.062Z"
+      "generated_at": "2026-11-28T11:25:07.993Z"
     },
     {
       "name": "Sublime Text",
@@ -110,7 +110,7 @@
       "category": "Developer Tools",
       "category_slug": "developer-tools",
       "tags": [],
-      "generated_at": "2026-11-28T11:23:05.062Z"
+      "generated_at": "2026-11-28T11:25:07.993Z"
     },
     {
       "name": "TablePlus",
@@ -125,7 +125,7 @@
       "tags": [
         "ai"
       ],
-      "generated_at": "2026-11-28T11:23:05.062Z"
+      "generated_at": "2026-11-28T11:25:07.993Z"
     }
   ]
 }

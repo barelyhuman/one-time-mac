@@ -14,10 +14,13 @@ The site is rebuilt automatically on every push to `main` (from this README). No
 - Disclose in the PR if you are the developer of the product
 - Each line should include the Name, link to product, link to license terms,
   and Price of the product (Mac Store apps may omit Price)
-- Optional tags (not categories): append `` `AI` `` at the end of the line when
+- Optional tags (not categories): append an `AI` tag at the end of the line when
   the app has a genuine built-in AI/ML feature (transcription, generation,
   on-device OCR, LLM assistant, etc.). Example:
-  `- [App](url) - $9.99 - [License](url) \`AI\``
+
+```md
+- [App](https://example.com) - $9.99 - [License](https://example.com/license) `AI`
+```
 
 ## Conditions
 
@@ -39,7 +42,7 @@ Machine-readable exports (rebuilt on every push to `main` from this README):
 
 Human UI with shareable filters: `https://barelyhuman.github.io/one-time-mac/?q=<term>&category=<slug>&tag=<tag>` (example: [?tag=ai](https://barelyhuman.github.io/one-time-mac/?tag=ai)).
 
-Tag index: [api/tags/ai.json](https://barelyhuman.github.io/one-time-mac/api/tags/ai.json) (apps marked `` `AI` `` in the README).
+Tag index: [api/tags/ai.json](https://barelyhuman.github.io/one-time-mac/api/tags/ai.json) (apps whose README line includes the `AI` tag).
 
 ## Products
 

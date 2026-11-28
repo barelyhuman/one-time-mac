@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-28T11:23:05.062Z",
+  "generated_at": "2026-11-28T11:25:07.993Z",
   "name": "Productivity & Automation",
   "slug": "productivity-automation",
   "count": 8,
@@ -15,7 +15,7 @@
       "category": "Productivity & Automation",
       "category_slug": "productivity-automation",
       "tags": [],
-      "generated_at": "2026-11-28T11:23:05.062Z"
+      "generated_at": "2026-11-28T11:25:07.993Z"
     },
     {
       "name": "ClipsPal",
@@ -30,7 +30,7 @@
       "tags": [
         "ai"
       ],
-      "generated_at": "2026-11-28T11:23:05.062Z"
+      "generated_at": "2026-11-28T11:25:07.993Z"
     },
     {
       "name": "Hazel",
@@ -43,7 +43,7 @@
       "category": "Productivity & Automation",
       "category_slug": "productivity-automation",
       "tags": [],
-      "generated_at": "2026-11-28T11:23:05.062Z"
+      "generated_at": "2026-11-28T11:25:07.993Z"
     },
     {
       "name": "Keyboard Maestro",
@@ -56,7 +56,7 @@
       "category": "Productivity & Automation",
       "category_slug": "productivity-automation",
       "tags": [],
-      "generated_at": "2026-11-28T11:23:05.062Z"
+      "generated_at": "2026-11-28T11:25:07.993Z"
     },
     {
       "name": "Soulver",
@@ -69,7 +69,7 @@
       "category": "Productivity & Automation",
       "category_slug": "productivity-automation",
       "tags": [],
-      "generated_at": "2026-11-28T11:23:05.062Z"
+      "generated_at": "2026-11-28T11:25:07.993Z"
     },
     {
       "name": "TaskPaper",
@@ -82,7 +82,7 @@
       "category": "Productivity & Automation",
       "category_slug": "productivity-automation",
       "tags": [],
-      "generated_at": "2026-11-28T11:23:05.062Z"
+      "generated_at": "2026-11-28T11:25:07.993Z"
     },
     {
       "name": "Things 3",
@@ -95,7 +95,7 @@
       "category": "Productivity & Automation",
       "category_slug": "productivity-automation",
       "tags": [],
-      "generated_at": "2026-11-28T11:23:05.062Z"
+      "generated_at": "2026-11-28T11:25:07.993Z"
     },
     {
       "name": "Wow Keywords",
@@ -110,7 +110,7 @@
       "tags": [
         "ai"
       ],
-      "generated_at": "2026-11-28T11:23:05.062Z"
+      "generated_at": "2026-11-28T11:25:07.993Z"
     }
   ]
 }

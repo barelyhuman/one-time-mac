@@ -2,7 +2,7 @@
 
 A community sourced set of products for Mac that have a one time lifetime license
 
-Generated: 2026-11-28T11:23:05.062Z
+Generated: 2026-11-28T11:25:07.993Z
 
 ## Developer Tools
 

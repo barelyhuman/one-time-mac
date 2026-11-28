@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-28T11:23:05.062Z",
+  "generated_at": "2026-11-28T11:25:07.993Z",
   "name": "Network & Security",
   "slug": "network-security",
   "count": 2,
@@ -15,7 +15,7 @@
       "category": "Network & Security",
       "category_slug": "network-security",
       "tags": [],
-      "generated_at": "2026-11-28T11:23:05.062Z"
+      "generated_at": "2026-11-28T11:25:07.993Z"
     },
     {
       "name": "Wipr 2",
@@ -28,7 +28,7 @@
       "category": "Network & Security",
       "category_slug": "network-security",
       "tags": [],
-      "generated_at": "2026-11-28T11:23:05.062Z"
+      "generated_at": "2026-11-28T11:25:07.993Z"
     }
   ]
 }
