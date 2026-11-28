@@ -1,6 +1,10 @@
 A community sourced set of products for Mac that have a one time lifetime
 license
 
+**Browse the list:** [one-time-mac on GitHub Pages](https://barelyhuman.github.io/one-time-mac/)
+
+The site is rebuilt automatically on every push to `main` (from this README). No separate site edits are required—update the product list here and merge.
+
 **How to Add**
 
 - Raise a PR following the mentioned convention
